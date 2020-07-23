@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks" xmlns:PortAndFlows="http://www.eclipse.org/papyrus/0.7.0/SysML/PortAndFlows" xmlns:Profile.Ports="http:///Profile/Ports.ecore" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Blocks http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks http://www.eclipse.org/papyrus/0.7.0/SysML/PortAndFlows http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows http:///Profile/Ports.ecore ../CarParkProfile/GPIOProfile.profile.uml#_HPAM4vd_Eea4k9if6TYKeA">
+  <uml:Model xmi:id="_yqG18PdiEeab-5GKKQU0-A" name="model">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_f7gRsPd2Eea4k9if6TYKeA">
+      <importedPackage xmi:type="uml:Profile" href="../CarParkProfile/GPIOProfile.profile.uml#_vfbxEPdfEeab-5GKKQU0-A"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ysGaAPdiEeab-5GKKQU0-A" name="System">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-fH8IPdiEeab-5GKKQU0-A" name="Discovery1" type="_2P7GEPdiEeab-5GKKQU0-A" aggregation="composite" association="_BH9moPdjEeab-5GKKQU0-A"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_CRDVoPdjEeab-5GKKQU0-A" name="Sensor1" type="_0w3uIPdiEeab-5GKKQU0-A" aggregation="composite" association="_DP1SEPdjEeab-5GKKQU0-A"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_njqwMPdmEeab-5GKKQU0-A" name="Sensor2" type="_0w3uIPdiEeab-5GKKQU0-A" aggregation="composite" association="_ofthsPdmEeab-5GKKQU0-A"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_BVzF8PdxEea4k9if6TYKeA" name="TRIGGER" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_BV2JQPdxEea4k9if6TYKeA" name="flowport1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_BV3-cPdxEea4k9if6TYKeA" name="CopyOf_Sensor2_1" type="_0w3uIPdiEeab-5GKKQU0-A" aggregation="composite" association="_BV7o0PdxEea4k9if6TYKeA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_DHwLwPdxEea4k9if6TYKeA" name="Sensor3" type="_0w3uIPdiEeab-5GKKQU0-A" aggregation="composite" association="_DH_cUPdxEea4k9if6TYKeA"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_DH25cPdxEea4k9if6TYKeA" name="ECHO3" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_DH6j0PdxEea4k9if6TYKeA" name="TRIGGER3" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FxF90Pd3Eea4k9if6TYKeA" name="Screen" type="_qnSusPdlEeab-5GKKQU0-A" aggregation="composite" association="_G4iuEPd3Eea4k9if6TYKeA"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_jfw3EPeAEea4k9if6TYKeA" name="TouchIN" aggregation="composite">
+        <type xmi:type="uml:DataType" href="../CarParkProfile/GPIOProfile.profile.uml#__4OMUPd-Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_sRql0vdlEeab-5GKKQU0-A" name="lcd/touch_1" type="_qnSusPdlEeab-5GKKQU0-A" aggregation="composite" association="_sRp-wPdlEeab-5GKKQU0-A"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zRW1kfhGEead0qZgYNr3rA" name="sensor_1" type="_0w3uIPdiEeab-5GKKQU0-A" aggregation="composite" association="_zRVncPhGEead0qZgYNr3rA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IBFM8PhHEead0qZgYNr3rA" value="3"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IBIQQPhHEead0qZgYNr3rA" value="3"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ZWCz8PkTEeaij-gqk6uX8w" name="discovery_1" type="_2P7GEPdiEeab-5GKKQU0-A" aggregation="composite" association="_ZV8GQPkTEeaij-gqk6uX8w"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_koVmgPdxEea4k9if6TYKeA" name="Connector1">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_koZQ4PdxEea4k9if6TYKeA" partWithPort="_-fH8IPdiEeab-5GKKQU0-A" role="_tTj9IPdkEeab-5GKKQU0-A"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_koZ38PdxEea4k9if6TYKeA" partWithPort="_CRDVoPdjEeab-5GKKQU0-A" role="_x9VkoPdkEeab-5GKKQU0-A"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_lTfcUPdxEea4k9if6TYKeA" name="Connector2">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_lTgqcPdxEea4k9if6TYKeA" partWithPort="_-fH8IPdiEeab-5GKKQU0-A" role="_amIqIPdjEeab-5GKKQU0-A"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_lTgqcfdxEea4k9if6TYKeA" partWithPort="_CRDVoPdjEeab-5GKKQU0-A" role="_GQBsoPdjEeab-5GKKQU0-A"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_1oJ2QPd0Eea4k9if6TYKeA" name="Connector3">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_1oLEYPd0Eea4k9if6TYKeA" partWithPort="_-fH8IPdiEeab-5GKKQU0-A" role="_os0voPdxEea4k9if6TYKeA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_1oLrcPd0Eea4k9if6TYKeA" partWithPort="_DHwLwPdxEea4k9if6TYKeA" role="_DH6j0PdxEea4k9if6TYKeA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_E4yHsPd1Eea4k9if6TYKeA" name="Connector4">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_E4yuwPd1Eea4k9if6TYKeA" partWithPort="_DHwLwPdxEea4k9if6TYKeA" role="_DH25cPdxEea4k9if6TYKeA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_E4zV0Pd1Eea4k9if6TYKeA" partWithPort="_-fH8IPdiEeab-5GKKQU0-A" role="_n9NQkPdxEea4k9if6TYKeA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_Xqt8sPd1Eea4k9if6TYKeA" name="Connector5">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_XqujwPd1Eea4k9if6TYKeA" partWithPort="_-fH8IPdiEeab-5GKKQU0-A" role="_Dk4FQPd0Eea4k9if6TYKeA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_XqvK0Pd1Eea4k9if6TYKeA" partWithPort="_njqwMPdmEeab-5GKKQU0-A" role="_qfC8MPdmEeab-5GKKQU0-A"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_YvCgcPd1Eea4k9if6TYKeA" name="Connector6">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_YvDHgPd1Eea4k9if6TYKeA" partWithPort="_-fH8IPdiEeab-5GKKQU0-A" role="_nA8coPdxEea4k9if6TYKeA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_YvDukPd1Eea4k9if6TYKeA" partWithPort="_njqwMPdmEeab-5GKKQU0-A" role="_9pLqQPdwEea4k9if6TYKeA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_PppXUPd3Eea4k9if6TYKeA" name="Connector7">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_Ppp-YPd3Eea4k9if6TYKeA" partWithPort="_-fH8IPdiEeab-5GKKQU0-A" role="_9lenQPd2Eea4k9if6TYKeA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_Ppp-Yfd3Eea4k9if6TYKeA" partWithPort="_FxF90Pd3Eea4k9if6TYKeA" role="_JbOtQPd3Eea4k9if6TYKeA"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_lZNE8PeAEea4k9if6TYKeA" name="Connector8">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_lZNE8feAEea4k9if6TYKeA" role="_jfw3EPeAEea4k9if6TYKeA"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_lZNsAPeAEea4k9if6TYKeA" partWithPort="_FxF90Pd3Eea4k9if6TYKeA" role="_iUn5oPeAEea4k9if6TYKeA"/>
+      </ownedConnector>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0w3uIPdiEeab-5GKKQU0-A" name="Sensor">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_GQBsoPdjEeab-5GKKQU0-A" name="ECHO1" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_x9VkoPdkEeab-5GKKQU0-A" name="TRIGGER1" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_qfC8MPdmEeab-5GKKQU0-A" name="TRIGGER2" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_9pLqQPdwEea4k9if6TYKeA" name="ECHO2" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_PSASYPeCEea4k9if6TYKeA" name="distance">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zRXcoPhGEead0qZgYNr3rA" name="system_1" type="_ysGaAPdiEeab-5GKKQU0-A" association="_zRVncPhGEead0qZgYNr3rA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Ww5F0PeCEea4k9if6TYKeA" name="Read">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_e8BUMPeCEea4k9if6TYKeA" name="ret" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BH9moPdjEeab-5GKKQU0-A" name="Association1" memberEnd="_-fH8IPdiEeab-5GKKQU0-A _BH9mo_djEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BH9mofdjEeab-5GKKQU0-A" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BH9movdjEeab-5GKKQU0-A" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_BH9mo_djEeab-5GKKQU0-A" name="system" type="_ysGaAPdiEeab-5GKKQU0-A" association="_BH9moPdjEeab-5GKKQU0-A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_DP1SEPdjEeab-5GKKQU0-A" name="Association2" memberEnd="_CRDVoPdjEeab-5GKKQU0-A _DP1SE_djEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DP1SEfdjEeab-5GKKQU0-A" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DP1SEvdjEeab-5GKKQU0-A" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_DP1SE_djEeab-5GKKQU0-A" name="system" type="_ysGaAPdiEeab-5GKKQU0-A" association="_DP1SEPdjEeab-5GKKQU0-A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_qnSusPdlEeab-5GKKQU0-A" name="LCD/Touch">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_sRql0_dlEeab-5GKKQU0-A" name="system_1" type="_ysGaAPdiEeab-5GKKQU0-A" association="_sRp-wPdlEeab-5GKKQU0-A"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_JbOtQPd3Eea4k9if6TYKeA" name="LCD-Touch_Port" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_R_w6IPd3Eea4k9if6TYKeA" value="40"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_R_z9cPd3Eea4k9if6TYKeA" value="40"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lTja0Pd-Eea4k9if6TYKeA" name="width">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_mYS1UPd-Eea4k9if6TYKeA" name="height">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_ylUL0Pd-Eea4k9if6TYKeA" name="TouchIN" aggregation="composite">
+        <type xmi:type="uml:DataType" href="../CarParkProfile/GPIOProfile.profile.uml#__4OMUPd-Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_iUn5oPeAEea4k9if6TYKeA" name="TouchIN" aggregation="composite">
+        <type xmi:type="uml:DataType" href="../CarParkProfile/GPIOProfile.profile.uml#__4OMUPd-Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_i6GTUPeCEea4k9if6TYKeA" name="DrawPicture">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_tvsj4PeCEea4k9if6TYKeA" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_vhjjEPeCEea4k9if6TYKeA" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_yxJEgPeCEea4k9if6TYKeA" name="buffer">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EByte"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_mvOx0PeCEea4k9if6TYKeA" name="DisplayString">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="__xxpQPeCEea4k9if6TYKeA" name="x">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_A7wwIPeDEea4k9if6TYKeA" name="y">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_CslNgPeDEea4k9if6TYKeA" name="s">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_nFIJUPeCEea4k9if6TYKeA" name="GetTouch">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JmUsgPeDEea4k9if6TYKeA" direction="return">
+          <type xmi:type="uml:DataType" href="../CarParkProfile/GPIOProfile.profile.uml#__4OMUPd-Eea4k9if6TYKeA"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_sRp-wPdlEeab-5GKKQU0-A" memberEnd="_sRql0vdlEeab-5GKKQU0-A _sRql0_dlEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sRql0PdlEeab-5GKKQU0-A" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sRql0fdlEeab-5GKKQU0-A" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ofthsPdmEeab-5GKKQU0-A" name="Association3" memberEnd="_njqwMPdmEeab-5GKKQU0-A _ofths_dmEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ofthsfdmEeab-5GKKQU0-A" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ofthsvdmEeab-5GKKQU0-A" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ofths_dmEeab-5GKKQU0-A" name="system" type="_ysGaAPdiEeab-5GKKQU0-A" association="_ofthsPdmEeab-5GKKQU0-A"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BV7o0PdxEea4k9if6TYKeA" name="Association3" memberEnd="_BV7o0_dxEea4k9if6TYKeA _BV3-cPdxEea4k9if6TYKeA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BV7o0fdxEea4k9if6TYKeA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BV7o0vdxEea4k9if6TYKeA" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_BV7o0_dxEea4k9if6TYKeA" name="system" type="_ysGaAPdiEeab-5GKKQU0-A" association="_BV7o0PdxEea4k9if6TYKeA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_DH_cUPdxEea4k9if6TYKeA" name="Association3" memberEnd="_DH_cU_dxEea4k9if6TYKeA _DHwLwPdxEea4k9if6TYKeA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DH_cUfdxEea4k9if6TYKeA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DH_cUvdxEea4k9if6TYKeA" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_DH_cU_dxEea4k9if6TYKeA" name="system" type="_ysGaAPdiEeab-5GKKQU0-A" association="_DH_cUPdxEea4k9if6TYKeA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_G4iuEPd3Eea4k9if6TYKeA" name="Association4" memberEnd="_FxF90Pd3Eea4k9if6TYKeA _G4jVIPd3Eea4k9if6TYKeA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_G4iuEfd3Eea4k9if6TYKeA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G4iuEvd3Eea4k9if6TYKeA" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_G4jVIPd3Eea4k9if6TYKeA" name="system" type="_ysGaAPdiEeab-5GKKQU0-A" association="_G4iuEPd3Eea4k9if6TYKeA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2P7GEPdiEeab-5GKKQU0-A" name="Discovery">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_amIqIPdjEeab-5GKKQU0-A" name="GPIOE_5" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_tTj9IPdkEeab-5GKKQU0-A" name="GPIOE_4" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_nA8coPdxEea4k9if6TYKeA" name="GPIOE_3" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_n9NQkPdxEea4k9if6TYKeA" name="GPIOE_1" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_os0voPdxEea4k9if6TYKeA" name="GPIOE_0" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_Dk4FQPd0Eea4k9if6TYKeA" name="GPIOE_2" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_9lenQPd2Eea4k9if6TYKeA" name="LCD-Touch_Port" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="../CarParkProfile/GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Aj6uUPd3Eea4k9if6TYKeA" value="40"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_AkA08Pd3Eea4k9if6TYKeA" value="40"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ZWF3QPkTEeaij-gqk6uX8w" name="system_1" type="_ysGaAPdiEeab-5GKKQU0-A" association="_ZV8GQPkTEeaij-gqk6uX8w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_zRVncPhGEead0qZgYNr3rA" memberEnd="_zRW1kfhGEead0qZgYNr3rA _zRXcoPhGEead0qZgYNr3rA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zRWOgPhGEead0qZgYNr3rA" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zRW1kPhGEead0qZgYNr3rA" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZV8GQPkTEeaij-gqk6uX8w" memberEnd="_ZWCz8PkTEeaij-gqk6uX8w _ZWF3QPkTEeaij-gqk6uX8w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZWAXsPkTEeaij-gqk6uX8w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZWAXsfkTEeaij-gqk6uX8w" key="nature" value="SysML_Nature"/>
+      </eAnnotations>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yr1UQPdiEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yr17UPdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_TZ_nULU5EduiKqCzJMWbGw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yr2iYPdiEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yr2iYfdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_Gx8MgLX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yr3JcPdiEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yr3JcfdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_fSw28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yr3JcvdiEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yr3Jc_diEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_rpx28LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yr3JdPdiEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yr3JdfdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//constraints"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_5WYJ0LX7EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yr3JdvdiEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yr3Jd_diEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_C2zXMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yr3wgPdiEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yr3wgfdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_NxdG4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yr3wgvdiEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yr3wg_diEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_OOJC4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yr3whPdiEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yr3whfdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//interactions"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_meOioLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yr3whvdiEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yr3wh_diEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//statemachines"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_nAF5kLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_yr3wiPdiEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yr3wifdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//usecases"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_neZmMLX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ys2A4PdiEeab-5GKKQU0-A">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ys2n8PdiEeab-5GKKQU0-A" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ys2n8fdiEeab-5GKKQU0-A" key="Version" value="0.0.5"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ys2n8vdiEeab-5GKKQU0-A" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ys2n8_diEeab-5GKKQU0-A" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ys2n9PdiEeab-5GKKQU0-A" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ys2n9fdiEeab-5GKKQU0-A" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ys2A4fdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="/GPIOProfile/GPIOProfile.profile.uml#_suSXwPdiEeab-5GKKQU0-A"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="/GPIOProfile/GPIOProfile.profile.uml#_vfbxEPdfEeab-5GKKQU0-A"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HJgmcPdwEea4k9if6TYKeA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Nyj40PhGEead0qZgYNr3rA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Nyj40fhGEead0qZgYNr3rA" key="Version" value="0.0.14"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Nyj40vhGEead0qZgYNr3rA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Nyj40_hGEead0qZgYNr3rA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Nyj41PhGEead0qZgYNr3rA" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Nyj41fhGEead0qZgYNr3rA" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HJjpwPdwEea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../CarParkProfile/GPIOProfile.profile.uml#_HPAMoPd_Eea4k9if6TYKeA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../CarParkProfile/GPIOProfile.profile.uml#_vfbxEPdfEeab-5GKKQU0-A"/>
+    </profileApplication>
+  </uml:Model>
+  <Blocks:Block xmi:id="_ysHoIPdiEeab-5GKKQU0-A" base_Class="_ysGaAPdiEeab-5GKKQU0-A"/>
+  <Blocks:Block xmi:id="_0w5jUPdiEeab-5GKKQU0-A" base_Class="_0w3uIPdiEeab-5GKKQU0-A"/>
+  <Blocks:Block xmi:id="_2P7GEfdiEeab-5GKKQU0-A" base_Class="_2P7GEPdiEeab-5GKKQU0-A"/>
+  <PortAndFlows:FlowPort xmi:id="_GQHzQPdjEeab-5GKKQU0-A" base_Port="_GQBsoPdjEeab-5GKKQU0-A" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_amLGYPdjEeab-5GKKQU0-A" base_Port="_amIqIPdjEeab-5GKKQU0-A" direction="in"/>
+  <Profile.Ports:GPIOPort xmi:id="_eKloUPdjEeab-5GKKQU0-A" base_Port="_amIqIPdjEeab-5GKKQU0-A" direction="in" Speed="Mhz_100" PuPd="DOWN"/>
+  <PortAndFlows:FlowPort xmi:id="_tTlLQPdkEeab-5GKKQU0-A" base_Port="_tTj9IPdkEeab-5GKKQU0-A" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_x9WywPdkEeab-5GKKQU0-A" base_Port="_x9VkoPdkEeab-5GKKQU0-A" direction="in"/>
+  <Profile.Ports:GPIOPort xmi:id="_1hUBsPdkEeab-5GKKQU0-A" base_Port="_tTj9IPdkEeab-5GKKQU0-A" direction="out" Speed="Mhz_100" PuPd="DOWN" Mode="OUT"/>
+  <Blocks:Block xmi:id="_qnTVwPdlEeab-5GKKQU0-A" base_Class="_qnSusPdlEeab-5GKKQU0-A"/>
+  <PortAndFlows:FlowPort xmi:id="_qfDjQPdmEeab-5GKKQU0-A" base_Port="_qfC8MPdmEeab-5GKKQU0-A" direction="in"/>
+  <Profile.Ports:GPIOPort xmi:id="_u85nkPdmEeab-5GKKQU0-A" base_Port="_qfC8MPdmEeab-5GKKQU0-A" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_9pPUoPdwEea4k9if6TYKeA" base_Port="_9pLqQPdwEea4k9if6TYKeA" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_BV8P4PdxEea4k9if6TYKeA" base_Port="_BVzF8PdxEea4k9if6TYKeA" direction="in"/>
+  <Profile.Ports:GPIOPort xmi:id="_BV828PdxEea4k9if6TYKeA" base_Port="_BVzF8PdxEea4k9if6TYKeA"/>
+  <PortAndFlows:FlowPort xmi:id="_BV9eAPdxEea4k9if6TYKeA" base_Port="_BV2JQPdxEea4k9if6TYKeA" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_DIAqcPdxEea4k9if6TYKeA" base_Port="_DH6j0PdxEea4k9if6TYKeA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_DIB4kPdxEea4k9if6TYKeA" base_Port="_DH25cPdxEea4k9if6TYKeA" direction="out"/>
+  <PortAndFlows:FlowPort xmi:id="_nA9qwPdxEea4k9if6TYKeA" base_Port="_nA8coPdxEea4k9if6TYKeA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_n9N3oPdxEea4k9if6TYKeA" base_Port="_n9NQkPdxEea4k9if6TYKeA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_os1WsPdxEea4k9if6TYKeA" base_Port="_os0voPdxEea4k9if6TYKeA" direction="out"/>
+  <Profile.Ports:GPIOPort xmi:id="_uChB8PdxEea4k9if6TYKeA" base_Port="_nA8coPdxEea4k9if6TYKeA" direction="in" Speed="Mhz_100" PuPd="DOWN"/>
+  <Profile.Ports:GPIOPort xmi:id="_xWpFIPdxEea4k9if6TYKeA" base_Port="_os0voPdxEea4k9if6TYKeA" direction="out" Speed="Mhz_100" Mode="OUT"/>
+  <Profile.Ports:GPIOPort xmi:id="_4AXyMPdxEea4k9if6TYKeA" base_Port="_n9NQkPdxEea4k9if6TYKeA" direction="in" Speed="Mhz_100" PuPd="DOWN"/>
+  <PortAndFlows:FlowPort xmi:id="_Dk4sUPd0Eea4k9if6TYKeA" base_Port="_Dk4FQPd0Eea4k9if6TYKeA" direction="out"/>
+  <Profile.Ports:GPIOPort xmi:id="_Gjw4QPd0Eea4k9if6TYKeA" base_Port="_Dk4FQPd0Eea4k9if6TYKeA" direction="out" Speed="Mhz_100" PuPd="DOWN" Mode="OUT"/>
+  <PortAndFlows:FlowPort xmi:id="_9lenQfd2Eea4k9if6TYKeA" base_Port="_9lenQPd2Eea4k9if6TYKeA"/>
+  <PortAndFlows:FlowPort xmi:id="_JbP7YPd3Eea4k9if6TYKeA" base_Port="_JbOtQPd3Eea4k9if6TYKeA"/>
+  <PortAndFlows:FlowPort xmi:id="_ylUy4Pd-Eea4k9if6TYKeA" base_Port="_ylUL0Pd-Eea4k9if6TYKeA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_iUogsPeAEea4k9if6TYKeA" base_Port="_iUn5oPeAEea4k9if6TYKeA" direction="in"/>
+  <PortAndFlows:FlowPort xmi:id="_jfxeIPeAEea4k9if6TYKeA" base_Port="_jfw3EPeAEea4k9if6TYKeA" direction="in"/>
+</xmi:XMI>

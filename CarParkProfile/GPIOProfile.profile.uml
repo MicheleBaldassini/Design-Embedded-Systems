@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vfbxEPdfEeab-5GKKQU0-A" name="Profile">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o22BkPdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_HPAMoPd_Eea4k9if6TYKeA" name="Profile" nsURI="http:///schemas/Profile/_HKA-8Pd_Eea4k9if6TYKeA/13" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAMofd_Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAzsfd_Eea4k9if6TYKeA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HPAzsvd_Eea4k9if6TYKeA" key="Version" value="0.0.14"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HPAzs_d_Eea4k9if6TYKeA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HPAztPd_Eea4k9if6TYKeA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HPAztfd_Eea4k9if6TYKeA" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HPAztvd_Eea4k9if6TYKeA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HPAMovd_Eea4k9if6TYKeA" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAMo_d_Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HPAMpPd_Eea4k9if6TYKeA" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HPAMpvd_Eea4k9if6TYKeA" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_HPAMqfd_Eea4k9if6TYKeA" name="Tpoint">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAMqvd_Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="__4OMUPd-Eea4k9if6TYKeA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HPAMq_d_Eea4k9if6TYKeA" name="x" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HPAMrfd_Eea4k9if6TYKeA" name="y" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Integer"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_HPAMr_d_Eea4k9if6TYKeA" name="Types" nsURI="http:///Profile/Types.ecore" nsPrefix="Profile.Types">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAMsPd_Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_gfyRMPd7Eea4k9if6TYKeA"/>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HPAMsfd_Eea4k9if6TYKeA" name="GPIO_IOMode">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAMsvd_Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AINMPd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMs_d_Eea4k9if6TYKeA" name="IN"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMtPd_Eea4k9if6TYKeA" name="OUT" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMtfd_Eea4k9if6TYKeA" name="AN" value="2"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HPAMtvd_Eea4k9if6TYKeA" name="GPIO_PuPd">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAMt_d_Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AI0QPd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMuPd_Eea4k9if6TYKeA" name="NOPULL"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMufd_Eea4k9if6TYKeA" name="UP" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMuvd_Eea4k9if6TYKeA" name="DOWN" value="2"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HPAMu_d_Eea4k9if6TYKeA" name="GPIO_Pin">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAMvPd_Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AJbUPd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMvfd_Eea4k9if6TYKeA" name="GPIO_Pin_0"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMvvd_Eea4k9if6TYKeA" name="GPIO_Pin_1" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMv_d_Eea4k9if6TYKeA" name="GPIO_Pin_2" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMwPd_Eea4k9if6TYKeA" name="GPIO_Pin_3" value="3"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMwfd_Eea4k9if6TYKeA" name="GPIO_Pin_4" value="4"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMwvd_Eea4k9if6TYKeA" name="GPIO_Pin_5" value="5"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMw_d_Eea4k9if6TYKeA" name="GPIO_Pin_6" value="6"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMxPd_Eea4k9if6TYKeA" name="GPIO_Pin_7" value="7"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMxfd_Eea4k9if6TYKeA" name="GPIO_Pin_8" value="8"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMxvd_Eea4k9if6TYKeA" name="GPIO_Pin_9" value="9"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMx_d_Eea4k9if6TYKeA" name="GPIO_Pin_10" value="10"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMyPd_Eea4k9if6TYKeA" name="GPIO_Pin_11" value="11"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMyfd_Eea4k9if6TYKeA" name="GPIO_Pin_12" value="12"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMyvd_Eea4k9if6TYKeA" name="GPIO_Pin_13" value="13"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMy_d_Eea4k9if6TYKeA" name="GPIO_Pin_14" value="14"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMzPd_Eea4k9if6TYKeA" name="GPIO_Pin_15" value="15"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HPAMzfd_Eea4k9if6TYKeA" name="GPIO_Speed">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAMzvd_Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AJbYfd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAMz_d_Eea4k9if6TYKeA" name="Mhz_2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAM0Pd_Eea4k9if6TYKeA" name="Mhz_25" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAM0fd_Eea4k9if6TYKeA" name="Mhz_50" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAM0vd_Eea4k9if6TYKeA" name="Mhz_100" value="3"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_HPAM0_d_Eea4k9if6TYKeA" name="GPIOx">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAM1Pd_Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AKCYPd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAM1fd_Eea4k9if6TYKeA" name="GPIOA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAM1vd_Eea4k9if6TYKeA" name="GPIOB" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAM1_d_Eea4k9if6TYKeA" name="GPIOC" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAM2Pd_Eea4k9if6TYKeA" name="GPIOD" value="3"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_HPAM2fd_Eea4k9if6TYKeA" name="GPIOE" value="4"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_HPAM2vd_Eea4k9if6TYKeA" name="GPIO_Addr">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAM2_d_Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AKCZvd7Eea4k9if6TYKeA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HPAM3Pd_Eea4k9if6TYKeA" name="Periph" ordered="false" lowerBound="1" eType="_HPAM0_d_Eea4k9if6TYKeA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HPAM3vd_Eea4k9if6TYKeA" name="Pin" ordered="false" lowerBound="1" eType="_HPAMu_d_Eea4k9if6TYKeA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_HPAM4Pd_Eea4k9if6TYKeA" name="Bits" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAM4fd_Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AKCafd7Eea4k9if6TYKeA"/>
+        </eClassifiers>
+      </eSubpackages>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_HPAM4vd_Eea4k9if6TYKeA" name="Ports" nsURI="http:///Profile/Ports.ecore" nsPrefix="Profile.Ports">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAM4_d_Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_hZFQsPd7Eea4k9if6TYKeA"/>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_HPAM5Pd_Eea4k9if6TYKeA" name="GPIOPort">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HPAM5fd_Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_HPAM5vd_Eea4k9if6TYKeA" name="SetBit" ordered="false" lowerBound="1"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_HPAM5_d_Eea4k9if6TYKeA" name="ResetBit" ordered="false" lowerBound="1"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_HPAM6Pd_Eea4k9if6TYKeA" name="Pin" ordered="false" lowerBound="1" eType="_HPAM2vd_Eea4k9if6TYKeA" containment="true"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HPAM6vd_Eea4k9if6TYKeA" name="Speed" ordered="false" lowerBound="1" eType="_HPAMzfd_Eea4k9if6TYKeA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HPAM7Pd_Eea4k9if6TYKeA" name="PuPd" ordered="false" lowerBound="1" eType="_HPAMtvd_Eea4k9if6TYKeA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_HPAM7vd_Eea4k9if6TYKeA" name="Mode" ordered="false" lowerBound="1" eType="_HPAMsfd_Eea4k9if6TYKeA"/>
+        </eClassifiers>
+      </eSubpackages>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_6PF2EPd9Eea4k9if6TYKeA" name="Profile" nsURI="http:///schemas/Profile/_6KHPcPd9Eea4k9if6TYKeA/12" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PF2Efd9Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PGdIfd9Eea4k9if6TYKeA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6PGdIvd9Eea4k9if6TYKeA" key="Version" value="0.0.13"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6PGdI_d9Eea4k9if6TYKeA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6PGdJPd9Eea4k9if6TYKeA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6PGdJfd9Eea4k9if6TYKeA" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6PGdJvd9Eea4k9if6TYKeA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_6PF2Evd9Eea4k9if6TYKeA" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PF2E_d9Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6PF2FPd9Eea4k9if6TYKeA" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6PF2Fvd9Eea4k9if6TYKeA" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_6PF2Gfd9Eea4k9if6TYKeA" name="Types" nsURI="http:///Profile/Types.ecore" nsPrefix="Profile.Types">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PF2Gvd9Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_gfyRMPd7Eea4k9if6TYKeA"/>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_6PF2G_d9Eea4k9if6TYKeA" name="GPIO_IOMode">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PF2HPd9Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AINMPd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Hfd9Eea4k9if6TYKeA" name="IN"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Hvd9Eea4k9if6TYKeA" name="OUT" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2H_d9Eea4k9if6TYKeA" name="AN" value="2"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_6PF2IPd9Eea4k9if6TYKeA" name="GPIO_PuPd">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PF2Ifd9Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AI0QPd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Ivd9Eea4k9if6TYKeA" name="NOPULL"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2I_d9Eea4k9if6TYKeA" name="UP" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2JPd9Eea4k9if6TYKeA" name="DOWN" value="2"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_6PF2Jfd9Eea4k9if6TYKeA" name="GPIO_Pin">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PF2Jvd9Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AJbUPd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2J_d9Eea4k9if6TYKeA" name="GPIO_Pin_0"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2KPd9Eea4k9if6TYKeA" name="GPIO_Pin_1" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Kfd9Eea4k9if6TYKeA" name="GPIO_Pin_2" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Kvd9Eea4k9if6TYKeA" name="GPIO_Pin_3" value="3"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2K_d9Eea4k9if6TYKeA" name="GPIO_Pin_4" value="4"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2LPd9Eea4k9if6TYKeA" name="GPIO_Pin_5" value="5"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Lfd9Eea4k9if6TYKeA" name="GPIO_Pin_6" value="6"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Lvd9Eea4k9if6TYKeA" name="GPIO_Pin_7" value="7"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2L_d9Eea4k9if6TYKeA" name="GPIO_Pin_8" value="8"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2MPd9Eea4k9if6TYKeA" name="GPIO_Pin_9" value="9"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Mfd9Eea4k9if6TYKeA" name="GPIO_Pin_10" value="10"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Mvd9Eea4k9if6TYKeA" name="GPIO_Pin_11" value="11"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2M_d9Eea4k9if6TYKeA" name="GPIO_Pin_12" value="12"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2NPd9Eea4k9if6TYKeA" name="GPIO_Pin_13" value="13"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Nfd9Eea4k9if6TYKeA" name="GPIO_Pin_14" value="14"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Nvd9Eea4k9if6TYKeA" name="GPIO_Pin_15" value="15"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_6PF2N_d9Eea4k9if6TYKeA" name="GPIO_Speed">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PF2OPd9Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AJbYfd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Ofd9Eea4k9if6TYKeA" name="Mhz_2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Ovd9Eea4k9if6TYKeA" name="Mhz_25" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2O_d9Eea4k9if6TYKeA" name="Mhz_50" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2PPd9Eea4k9if6TYKeA" name="Mhz_100" value="3"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_6PF2Pfd9Eea4k9if6TYKeA" name="GPIOx">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PF2Pvd9Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AKCYPd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2P_d9Eea4k9if6TYKeA" name="GPIOA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2QPd9Eea4k9if6TYKeA" name="GPIOB" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Qfd9Eea4k9if6TYKeA" name="GPIOC" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Qvd9Eea4k9if6TYKeA" name="GPIOD" value="3"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_6PF2Q_d9Eea4k9if6TYKeA" name="GPIOE" value="4"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6PF2RPd9Eea4k9if6TYKeA" name="GPIO_Addr">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PF2Rfd9Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AKCZvd7Eea4k9if6TYKeA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6PF2Rvd9Eea4k9if6TYKeA" name="Periph" ordered="false" lowerBound="1" eType="_6PF2Pfd9Eea4k9if6TYKeA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6PF2SPd9Eea4k9if6TYKeA" name="Pin" ordered="false" lowerBound="1" eType="_6PF2Jfd9Eea4k9if6TYKeA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_6PF2Svd9Eea4k9if6TYKeA" name="Bits" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PF2S_d9Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AKCafd7Eea4k9if6TYKeA"/>
+        </eClassifiers>
+      </eSubpackages>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_6PF2TPd9Eea4k9if6TYKeA" name="Ports" nsURI="http:///Profile/Ports.ecore" nsPrefix="Profile.Ports">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PF2Tfd9Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_hZFQsPd7Eea4k9if6TYKeA"/>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_6PF2Tvd9Eea4k9if6TYKeA" name="GPIOPort">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6PF2T_d9Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_6PF2UPd9Eea4k9if6TYKeA" name="SetBit" ordered="false" lowerBound="1"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_6PF2Ufd9Eea4k9if6TYKeA" name="ResetBit" ordered="false" lowerBound="1"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_6PF2Uvd9Eea4k9if6TYKeA" name="Pin" ordered="false" lowerBound="1" eType="_6PF2RPd9Eea4k9if6TYKeA" containment="true"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6PF2VPd9Eea4k9if6TYKeA" name="Speed" ordered="false" lowerBound="1" eType="_6PF2N_d9Eea4k9if6TYKeA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6PF2Vvd9Eea4k9if6TYKeA" name="PuPd" ordered="false" lowerBound="1" eType="_6PF2IPd9Eea4k9if6TYKeA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_6PF2WPd9Eea4k9if6TYKeA" name="Mode" ordered="false" lowerBound="1" eType="_6PF2G_d9Eea4k9if6TYKeA"/>
+        </eClassifiers>
+      </eSubpackages>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_EaBq8Pd8Eea4k9if6TYKeA" name="Profile" nsURI="http:///schemas/Profile/_EXJWEPd8Eea4k9if6TYKeA/11" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaBq8fd8Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaCSAfd8Eea4k9if6TYKeA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EaCSAvd8Eea4k9if6TYKeA" key="Version" value="0.0.12"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EaCSA_d8Eea4k9if6TYKeA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EaCSBPd8Eea4k9if6TYKeA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EaCSBfd8Eea4k9if6TYKeA" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EaCSBvd8Eea4k9if6TYKeA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_EaBq8vd8Eea4k9if6TYKeA" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaBq8_d8Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_EaBq9Pd8Eea4k9if6TYKeA" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_EaBq9vd8Eea4k9if6TYKeA" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_EaBq-fd8Eea4k9if6TYKeA" name="Types" nsURI="http:///Profile/Types.ecore" nsPrefix="Profile.Types">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaBq-vd8Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_gfyRMPd7Eea4k9if6TYKeA"/>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_EaBq-_d8Eea4k9if6TYKeA" name="GPIO_IOMode">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaBq_Pd8Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AINMPd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBq_fd8Eea4k9if6TYKeA" name="IN"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBq_vd8Eea4k9if6TYKeA" name="OUT" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBq__d8Eea4k9if6TYKeA" name="AN" value="2"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_EaBrAPd8Eea4k9if6TYKeA" name="GPIO_PuPd">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaBrAfd8Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AI0QPd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrAvd8Eea4k9if6TYKeA" name="NOPULL"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrA_d8Eea4k9if6TYKeA" name="UP" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrBPd8Eea4k9if6TYKeA" name="DOWN" value="2"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_EaBrBfd8Eea4k9if6TYKeA" name="GPIO_Pin">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaBrBvd8Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AJbUPd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrB_d8Eea4k9if6TYKeA" name="GPIO_Pin_0"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrCPd8Eea4k9if6TYKeA" name="GPIO_Pin_1" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrCfd8Eea4k9if6TYKeA" name="GPIO_Pin_2" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrCvd8Eea4k9if6TYKeA" name="GPIO_Pin_3" value="3"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrC_d8Eea4k9if6TYKeA" name="GPIO_Pin_4" value="4"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrDPd8Eea4k9if6TYKeA" name="GPIO_Pin_5" value="5"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrDfd8Eea4k9if6TYKeA" name="GPIO_Pin_6" value="6"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrDvd8Eea4k9if6TYKeA" name="GPIO_Pin_7" value="7"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrD_d8Eea4k9if6TYKeA" name="GPIO_Pin_8" value="8"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrEPd8Eea4k9if6TYKeA" name="GPIO_Pin_9" value="9"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrEfd8Eea4k9if6TYKeA" name="GPIO_Pin_10" value="10"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrEvd8Eea4k9if6TYKeA" name="GPIO_Pin_11" value="11"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrE_d8Eea4k9if6TYKeA" name="GPIO_Pin_12" value="12"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrFPd8Eea4k9if6TYKeA" name="GPIO_Pin_13" value="13"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrFfd8Eea4k9if6TYKeA" name="GPIO_Pin_14" value="14"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrFvd8Eea4k9if6TYKeA" name="GPIO_Pin_15" value="15"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_EaBrF_d8Eea4k9if6TYKeA" name="GPIO_Speed">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaBrGPd8Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AJbYfd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrGfd8Eea4k9if6TYKeA" name="Mhz_2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrGvd8Eea4k9if6TYKeA" name="Mhz_25" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrG_d8Eea4k9if6TYKeA" name="Mhz_50" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrHPd8Eea4k9if6TYKeA" name="Mhz_100" value="3"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EEnum" xmi:id="_EaBrHfd8Eea4k9if6TYKeA" name="GPIOx">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaBrHvd8Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AKCYPd7Eea4k9if6TYKeA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrH_d8Eea4k9if6TYKeA" name="GPIOA"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrIPd8Eea4k9if6TYKeA" name="GPIOB" value="1"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrIfd8Eea4k9if6TYKeA" name="GPIOC" value="2"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrIvd8Eea4k9if6TYKeA" name="GPIOD" value="3"/>
+          <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_EaBrI_d8Eea4k9if6TYKeA" name="GPIOE" value="4"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_EaBrJPd8Eea4k9if6TYKeA" name="GPIO_Addr">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaBrJfd8Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AKCZvd7Eea4k9if6TYKeA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_EaBrJvd8Eea4k9if6TYKeA" name="Periph" ordered="false" lowerBound="1" eType="_EaBrHfd8Eea4k9if6TYKeA"/>
+          <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_EaBrKPd8Eea4k9if6TYKeA" name="Pin" ordered="false" lowerBound="1" eType="_EaBrBfd8Eea4k9if6TYKeA"/>
+        </eClassifiers>
+        <eClassifiers xmi:type="ecore:EDataType" xmi:id="_EaBrKvd8Eea4k9if6TYKeA" name="Bits" instanceClassName="java.lang.String">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaBrK_d8Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2AKCafd7Eea4k9if6TYKeA"/>
+        </eClassifiers>
+      </eSubpackages>
+      <eSubpackages xmi:type="ecore:EPackage" xmi:id="_EaBrLPd8Eea4k9if6TYKeA" name="Ports" nsURI="http:///Profile/Ports.ecore" nsPrefix="Profile.Ports">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaBrLfd8Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/4.0.0/UML" references="_hZFQsPd7Eea4k9if6TYKeA"/>
+        <eClassifiers xmi:type="ecore:EClass" xmi:id="_EaBrLvd8Eea4k9if6TYKeA" name="GPIOPort">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EaBrL_d8Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+          <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_EaBrMPd8Eea4k9if6TYKeA" name="SetBit" ordered="false" lowerBound="1"/>
+          <eOperations xmi:type="ecore:EOperation" xmi:id="_EaBrMfd8Eea4k9if6TYKeA" name="ResetBit" ordered="false" lowerBound="1"/>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_EaBrMvd8Eea4k9if6TYKeA" name="Pin" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_EaBrNPd8Eea4k9if6TYKeA" name="Speed" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_EaBrNvd8Eea4k9if6TYKeA" name="PuPd" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+          </eStructuralFeatures>
+          <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_EaBrOPd8Eea4k9if6TYKeA" name="Mode" ordered="false" lowerBound="1">
+            <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/emf/2002/Ecore#//EObject"/>
+          </eStructuralFeatures>
+        </eClassifiers>
+      </eSubpackages>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_gA9EUPd0Eea4k9if6TYKeA" name="Profile" nsURI="http:///schemas/Profile/_f6OKMPd0Eea4k9if6TYKeA/10" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gA9EUfd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gA-Sc_d0Eea4k9if6TYKeA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gA-SdPd0Eea4k9if6TYKeA" key="Version" value="0.0.11"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gA-Sdfd0Eea4k9if6TYKeA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gA-Sdvd0Eea4k9if6TYKeA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gA-Sd_d0Eea4k9if6TYKeA" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gA-SePd0Eea4k9if6TYKeA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_gA9EUvd0Eea4k9if6TYKeA" name="GPIOPort">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gA9EU_d0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_gA9EVPd0Eea4k9if6TYKeA" name="SetBit" ordered="false" lowerBound="1"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_gA9EVfd0Eea4k9if6TYKeA" name="ResetBit" ordered="false" lowerBound="1"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_gA9EVvd0Eea4k9if6TYKeA" name="Pin" ordered="false" lowerBound="1" eType="_gA9EX_d0Eea4k9if6TYKeA" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_gA9EWPd0Eea4k9if6TYKeA" name="Speed" ordered="false" lowerBound="1" eType="_gA9Efvd0Eea4k9if6TYKeA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_gA9EWvd0Eea4k9if6TYKeA" name="PuPd" ordered="false" lowerBound="1" eType="_gA9EhPd0Eea4k9if6TYKeA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_gA9EXPd0Eea4k9if6TYKeA" name="Mode" ordered="false" lowerBound="1" eType="_gA9Eifd0Eea4k9if6TYKeA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_gA9EX_d0Eea4k9if6TYKeA" name="GPIO_Addr">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gA9EYPd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_gA9EYfd0Eea4k9if6TYKeA" name="Periph" ordered="false" lowerBound="1" eType="_gA9EZfd0Eea4k9if6TYKeA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_gA9EY_d0Eea4k9if6TYKeA" name="Pin" ordered="false" lowerBound="1" eType="_gA9EbPd0Eea4k9if6TYKeA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_gA9EZfd0Eea4k9if6TYKeA" name="GPIOx">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gA9EZvd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9EZ_d0Eea4k9if6TYKeA" name="GPIOA"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9EaPd0Eea4k9if6TYKeA" name="GPIOB" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Eafd0Eea4k9if6TYKeA" name="GPIOC" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Eavd0Eea4k9if6TYKeA" name="GPIOD" value="3"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Ea_d0Eea4k9if6TYKeA" name="GPIOE" value="4"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_gA9EbPd0Eea4k9if6TYKeA" name="GPIO_Pin">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gA9Ebfd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Ebvd0Eea4k9if6TYKeA" name="GPIO_Pin_0"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Eb_d0Eea4k9if6TYKeA" name="GPIO_Pin_1" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9EcPd0Eea4k9if6TYKeA" name="GPIO_Pin_2" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Ecfd0Eea4k9if6TYKeA" name="GPIO_Pin_3" value="3"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Ecvd0Eea4k9if6TYKeA" name="GPIO_Pin_4" value="4"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Ec_d0Eea4k9if6TYKeA" name="GPIO_Pin_5" value="5"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9EdPd0Eea4k9if6TYKeA" name="GPIO_Pin_6" value="6"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Edfd0Eea4k9if6TYKeA" name="GPIO_Pin_7" value="7"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Edvd0Eea4k9if6TYKeA" name="GPIO_Pin_8" value="8"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Ed_d0Eea4k9if6TYKeA" name="GPIO_Pin_9" value="9"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9EePd0Eea4k9if6TYKeA" name="GPIO_Pin_10" value="10"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Eefd0Eea4k9if6TYKeA" name="GPIO_Pin_11" value="11"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Eevd0Eea4k9if6TYKeA" name="GPIO_Pin_12" value="12"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Ee_d0Eea4k9if6TYKeA" name="GPIO_Pin_13" value="13"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9EfPd0Eea4k9if6TYKeA" name="GPIO_Pin_14" value="14"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Effd0Eea4k9if6TYKeA" name="GPIO_Pin_15" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_gA9Efvd0Eea4k9if6TYKeA" name="GPIO_Speed">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gA9Ef_d0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9EgPd0Eea4k9if6TYKeA" name="Mhz_2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Egfd0Eea4k9if6TYKeA" name="Mhz_25" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Egvd0Eea4k9if6TYKeA" name="Mhz_50" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Eg_d0Eea4k9if6TYKeA" name="Mhz_100" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_gA9EhPd0Eea4k9if6TYKeA" name="GPIO_PuPd">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gA9Ehfd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Ehvd0Eea4k9if6TYKeA" name="NOPULL"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Eh_d0Eea4k9if6TYKeA" name="UP" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9EiPd0Eea4k9if6TYKeA" name="DOWN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_gA9Eifd0Eea4k9if6TYKeA" name="GPIO_IOMode">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gA9Eivd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Ei_d0Eea4k9if6TYKeA" name="IN"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9EjPd0Eea4k9if6TYKeA" name="OUT" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_gA9Ejfd0Eea4k9if6TYKeA" name="AN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_gA9Ejvd0Eea4k9if6TYKeA" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gA9Ej_d0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_gA9EkPd0Eea4k9if6TYKeA" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_gA9Ekvd0Eea4k9if6TYKeA" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_gA9Elfd0Eea4k9if6TYKeA" name="Bits" instanceClassName="java.lang.String">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gA9Elvd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_JDEzUPd0Eea4k9if6TYKeA" name="Profile" nsURI="http:///schemas/Profile/_I8dN8Pd0Eea4k9if6TYKeA/9" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JDEzUfd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JDGBcfd0Eea4k9if6TYKeA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JDGBcvd0Eea4k9if6TYKeA" key="Version" value="0.0.10"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JDGBc_d0Eea4k9if6TYKeA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JDGBdPd0Eea4k9if6TYKeA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JDGBdfd0Eea4k9if6TYKeA" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JDGBdvd0Eea4k9if6TYKeA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_JDEzUvd0Eea4k9if6TYKeA" name="GPIOPort">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JDEzU_d0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_JDEzVPd0Eea4k9if6TYKeA" name="SetBit" ordered="false" lowerBound="1"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_JDEzVfd0Eea4k9if6TYKeA" name="ResetBit" ordered="false" lowerBound="1"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_JDEzVvd0Eea4k9if6TYKeA" name="Pin" ordered="false" lowerBound="1" eType="_JDEzX_d0Eea4k9if6TYKeA" containment="true"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_JDEzWPd0Eea4k9if6TYKeA" name="Speed" ordered="false" lowerBound="1" eType="_JDEzfvd0Eea4k9if6TYKeA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_JDEzWvd0Eea4k9if6TYKeA" name="PuPd" ordered="false" lowerBound="1" eType="_JDEzhPd0Eea4k9if6TYKeA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_JDEzXPd0Eea4k9if6TYKeA" name="Mode" ordered="false" lowerBound="1" eType="_JDEzifd0Eea4k9if6TYKeA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_JDEzX_d0Eea4k9if6TYKeA" name="GPIO_Addr">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JDEzYPd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_JDEzYfd0Eea4k9if6TYKeA" name="Periph" ordered="false" lowerBound="1" eType="_JDEzZfd0Eea4k9if6TYKeA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_JDEzY_d0Eea4k9if6TYKeA" name="Pin" ordered="false" lowerBound="1" eType="_JDEzbPd0Eea4k9if6TYKeA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_JDEzZfd0Eea4k9if6TYKeA" name="GPIOx">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JDEzZvd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzZ_d0Eea4k9if6TYKeA" name="GPIOA"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzaPd0Eea4k9if6TYKeA" name="GPIOB" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzafd0Eea4k9if6TYKeA" name="GPIOC" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzavd0Eea4k9if6TYKeA" name="GPIOD" value="3"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEza_d0Eea4k9if6TYKeA" name="GPIOE" value="4"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_JDEzbPd0Eea4k9if6TYKeA" name="GPIO_Pin">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JDEzbfd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzbvd0Eea4k9if6TYKeA" name="GPIO_Pin_0"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzb_d0Eea4k9if6TYKeA" name="GPIO_Pin_1" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzcPd0Eea4k9if6TYKeA" name="GPIO_Pin_2" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzcfd0Eea4k9if6TYKeA" name="GPIO_Pin_3" value="3"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzcvd0Eea4k9if6TYKeA" name="GPIO_Pin_4" value="4"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzc_d0Eea4k9if6TYKeA" name="GPIO_Pin_5" value="5"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzdPd0Eea4k9if6TYKeA" name="GPIO_Pin_6" value="6"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzdfd0Eea4k9if6TYKeA" name="GPIO_Pin_7" value="7"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzdvd0Eea4k9if6TYKeA" name="GPIO_Pin_8" value="8"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzd_d0Eea4k9if6TYKeA" name="GPIO_Pin_9" value="9"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzePd0Eea4k9if6TYKeA" name="GPIO_Pin_10" value="10"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzefd0Eea4k9if6TYKeA" name="GPIO_Pin_11" value="11"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzevd0Eea4k9if6TYKeA" name="GPIO_Pin_12" value="12"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEze_d0Eea4k9if6TYKeA" name="GPIO_Pin_13" value="13"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzfPd0Eea4k9if6TYKeA" name="GPIO_Pin_14" value="14"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzffd0Eea4k9if6TYKeA" name="GPIO_Pin_15" value="15"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_JDEzfvd0Eea4k9if6TYKeA" name="GPIO_Speed">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JDEzf_d0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzgPd0Eea4k9if6TYKeA" name="Mhz_2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzgfd0Eea4k9if6TYKeA" name="Mhz_25" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzgvd0Eea4k9if6TYKeA" name="Mhz_50" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzg_d0Eea4k9if6TYKeA" name="Mhz_100" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_JDEzhPd0Eea4k9if6TYKeA" name="GPIO_PuPd">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JDEzhfd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzhvd0Eea4k9if6TYKeA" name="NOPULL"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzh_d0Eea4k9if6TYKeA" name="UP" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEziPd0Eea4k9if6TYKeA" name="DOWN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_JDEzifd0Eea4k9if6TYKeA" name="GPIO_IOMode">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JDEzivd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzi_d0Eea4k9if6TYKeA" name="IN"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzjPd0Eea4k9if6TYKeA" name="OUT" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_JDEzjfd0Eea4k9if6TYKeA" name="AN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_JDEzjvd0Eea4k9if6TYKeA" name="uint32" instanceClassName="java.lang.String">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JDEzj_d0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_JDEzkPd0Eea4k9if6TYKeA" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JDEzkfd0Eea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_JDEzkvd0Eea4k9if6TYKeA" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_JDEzlPd0Eea4k9if6TYKeA" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_-WmmYPdvEea4k9if6TYKeA" name="Profile" nsURI="http:///schemas/Profile/_-R00EPdvEea4k9if6TYKeA/8" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-WmmYfdvEea4k9if6TYKeA" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-WpCofdvEea4k9if6TYKeA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-WpCovdvEea4k9if6TYKeA" key="Version" value="0.0.9"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-WpCo_dvEea4k9if6TYKeA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-WpCpPdvEea4k9if6TYKeA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-WpCpfdvEea4k9if6TYKeA" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-WpCpvdvEea4k9if6TYKeA" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-WmmYvdvEea4k9if6TYKeA" name="GPIOPort">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-WmmY_dvEea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_-WmmZPdvEea4k9if6TYKeA" name="SetBit" ordered="false" lowerBound="1"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_-WmmZfdvEea4k9if6TYKeA" name="ResetBit" ordered="false" lowerBound="1"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_-WmmZvdvEea4k9if6TYKeA" name="Pin" ordered="false" lowerBound="1" eType="_-Wmmb_dvEea4k9if6TYKeA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_-WmmaPdvEea4k9if6TYKeA" name="Speed" ordered="false" lowerBound="1" eType="_-WmmcfdvEea4k9if6TYKeA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_-WmmavdvEea4k9if6TYKeA" name="PuPd" ordered="false" lowerBound="1" eType="_-Wmmd_dvEea4k9if6TYKeA"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_-WmmbPdvEea4k9if6TYKeA" name="Mode" ordered="false" lowerBound="1" eType="_-WmmfPdvEea4k9if6TYKeA"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_-Wmmb_dvEea4k9if6TYKeA" name="uint32" instanceClassName="java.lang.String">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-WmmcPdvEea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_-WmmcfdvEea4k9if6TYKeA" name="GPIO_Speed">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-WmmcvdvEea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_-Wmmc_dvEea4k9if6TYKeA" name="Mhz_2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_-WmmdPdvEea4k9if6TYKeA" name="Mhz_25" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_-WmmdfdvEea4k9if6TYKeA" name="Mhz_50" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_-WmmdvdvEea4k9if6TYKeA" name="Mhz_100" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_-Wmmd_dvEea4k9if6TYKeA" name="GPIO_PuPd">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-WmmePdvEea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_-WmmefdvEea4k9if6TYKeA" name="NOPULL"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_-WmmevdvEea4k9if6TYKeA" name="UP" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_-Wmme_dvEea4k9if6TYKeA" name="DOWN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_-WmmfPdvEea4k9if6TYKeA" name="GPIO_IOMode">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-WmmffdvEea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_-WmmfvdvEea4k9if6TYKeA" name="IN"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_-Wmmf_dvEea4k9if6TYKeA" name="OUT" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_-WmmgPdvEea4k9if6TYKeA" name="AN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_-WmmgfdvEea4k9if6TYKeA" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-WmmgvdvEea4k9if6TYKeA" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_-Wmmg_dvEea4k9if6TYKeA" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_-WmmhfdvEea4k9if6TYKeA" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_aWkcwPdmEeab-5GKKQU0-A" name="Profile" nsURI="http:///schemas/Profile/_aROCsPdmEeab-5GKKQU0-A/7" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aWkcwfdmEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aWlD0PdmEeab-5GKKQU0-A" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aWlD0fdmEeab-5GKKQU0-A" key="Version" value="0.0.8"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aWlD0vdmEeab-5GKKQU0-A" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aWlD0_dmEeab-5GKKQU0-A" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aWlD1PdmEeab-5GKKQU0-A" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aWlD1fdmEeab-5GKKQU0-A" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_aWkcwvdmEeab-5GKKQU0-A" name="GPIOPort">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aWkcw_dmEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_aWkcxPdmEeab-5GKKQU0-A" name="SetBit" ordered="false" lowerBound="1"/>
+        <eOperations xmi:type="ecore:EOperation" xmi:id="_aWkcxfdmEeab-5GKKQU0-A" name="ResetBit" ordered="false" lowerBound="1"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aWkcxvdmEeab-5GKKQU0-A" name="Pin" ordered="false" lowerBound="1" eType="_aWkcz_dmEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aWkcyPdmEeab-5GKKQU0-A" name="Speed" ordered="false" lowerBound="1" eType="_aWkc0fdmEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aWkcyvdmEeab-5GKKQU0-A" name="PuPd" ordered="false" lowerBound="1" eType="_aWkc1_dmEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aWkczPdmEeab-5GKKQU0-A" name="Mode" ordered="false" lowerBound="1" eType="_aWkc3PdmEeab-5GKKQU0-A"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_aWkcz_dmEeab-5GKKQU0-A" name="uint32" instanceClassName="java.lang.String">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aWkc0PdmEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_aWkc0fdmEeab-5GKKQU0-A" name="GPIO_Speed">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aWkc0vdmEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_aWkc0_dmEeab-5GKKQU0-A" name="Mhz_2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_aWkc1PdmEeab-5GKKQU0-A" name="Mhz_25" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_aWkc1fdmEeab-5GKKQU0-A" name="Mhz_50" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_aWkc1vdmEeab-5GKKQU0-A" name="Mhz_100" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_aWkc1_dmEeab-5GKKQU0-A" name="GPIO_PuPd">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aWkc2PdmEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_aWkc2fdmEeab-5GKKQU0-A" name="NOPULL"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_aWkc2vdmEeab-5GKKQU0-A" name="UP" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_aWkc2_dmEeab-5GKKQU0-A" name="DOWN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_aWkc3PdmEeab-5GKKQU0-A" name="GPIO_IOMode">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aWkc3fdmEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_aWkc3vdmEeab-5GKKQU0-A" name="IN"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_aWkc3_dmEeab-5GKKQU0-A" name="OUT" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_aWkc4PdmEeab-5GKKQU0-A" name="AN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_aWkc4fdmEeab-5GKKQU0-A" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aWkc4vdmEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aWkc4_dmEeab-5GKKQU0-A" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_aWkc5fdmEeab-5GKKQU0-A" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_n52RAPdlEeab-5GKKQU0-A" name="Profile" nsURI="http:///schemas/Profile/_n0iTMPdlEeab-5GKKQU0-A/6" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n52RAfdlEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n524EvdlEeab-5GKKQU0-A" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n524E_dlEeab-5GKKQU0-A" key="Version" value="0.0.7"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n524FPdlEeab-5GKKQU0-A" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n524FfdlEeab-5GKKQU0-A" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n524FvdlEeab-5GKKQU0-A" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n524F_dlEeab-5GKKQU0-A" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_n52RAvdlEeab-5GKKQU0-A" name="GPIOPort">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n52RA_dlEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n52RBPdlEeab-5GKKQU0-A" name="Pin" ordered="false" lowerBound="1" eType="_n52RDfdlEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n52RBvdlEeab-5GKKQU0-A" name="Speed" ordered="false" lowerBound="1" eType="_n52RD_dlEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n52RCPdlEeab-5GKKQU0-A" name="PuPd" ordered="false" lowerBound="1" eType="_n52RFfdlEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n52RCvdlEeab-5GKKQU0-A" name="Mode" ordered="false" lowerBound="1" eType="_n52RGvdlEeab-5GKKQU0-A"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_n52RDfdlEeab-5GKKQU0-A" name="uint32" instanceClassName="java.lang.String">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n52RDvdlEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_n52RD_dlEeab-5GKKQU0-A" name="GPIO_Speed">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n52REPdlEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_n52REfdlEeab-5GKKQU0-A" name="Mhz_2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_n52REvdlEeab-5GKKQU0-A" name="Mhz_25" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_n52RE_dlEeab-5GKKQU0-A" name="Mhz_50" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_n52RFPdlEeab-5GKKQU0-A" name="Mhz_100" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_n52RFfdlEeab-5GKKQU0-A" name="GPIO_PuPd">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n52RFvdlEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_n52RF_dlEeab-5GKKQU0-A" name="NOPULL"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_n52RGPdlEeab-5GKKQU0-A" name="UP" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_n52RGfdlEeab-5GKKQU0-A" name="DOWN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_n52RGvdlEeab-5GKKQU0-A" name="GPIO_IOMode">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n52RG_dlEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_n52RHPdlEeab-5GKKQU0-A" name="IN"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_n52RHfdlEeab-5GKKQU0-A" name="OUT" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_n52RHvdlEeab-5GKKQU0-A" name="AN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_n52RH_dlEeab-5GKKQU0-A" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n52RIPdlEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n52RIfdlEeab-5GKKQU0-A" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_n52RI_dlEeab-5GKKQU0-A" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_jg-owPdkEeab-5GKKQU0-A" name="Profile" nsURI="http:///schemas/Profile/_jbnAkPdkEeab-5GKKQU0-A/5" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jg-owfdkEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jg_P0vdkEeab-5GKKQU0-A" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jg_P0_dkEeab-5GKKQU0-A" key="Version" value="0.0.6"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jg_P1PdkEeab-5GKKQU0-A" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jg_P1fdkEeab-5GKKQU0-A" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jg_P1vdkEeab-5GKKQU0-A" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jg_P1_dkEeab-5GKKQU0-A" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_jg-owvdkEeab-5GKKQU0-A" name="GPIOPort">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jg-ow_dkEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_jg-oxPdkEeab-5GKKQU0-A" name="Pin" ordered="false" lowerBound="1" eType="_jg-ozfdkEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_jg-oxvdkEeab-5GKKQU0-A" name="Speed" ordered="false" lowerBound="1" eType="_jg-oz_dkEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_jg-oyPdkEeab-5GKKQU0-A" name="PuPd" ordered="false" lowerBound="1" eType="_jg-o1fdkEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_jg-oyvdkEeab-5GKKQU0-A" name="Mode" ordered="false" lowerBound="1" eType="_jg-o2vdkEeab-5GKKQU0-A"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_jg-ozfdkEeab-5GKKQU0-A" name="uint32" instanceClassName="java.lang.String">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jg-ozvdkEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_jg-oz_dkEeab-5GKKQU0-A" name="GPIO_Speed">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jg-o0PdkEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_jg-o0fdkEeab-5GKKQU0-A" name="Mhz_2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_jg-o0vdkEeab-5GKKQU0-A" name="Mhz_25" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_jg-o0_dkEeab-5GKKQU0-A" name="Mhz_50" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_jg-o1PdkEeab-5GKKQU0-A" name="Mhz_100" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_jg-o1fdkEeab-5GKKQU0-A" name="GPIO_PuPd">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jg-o1vdkEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_jg-o1_dkEeab-5GKKQU0-A" name="NOPULL"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_jg-o2PdkEeab-5GKKQU0-A" name="UP" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_jg-o2fdkEeab-5GKKQU0-A" name="DOWN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_jg-o2vdkEeab-5GKKQU0-A" name="GPIO_IOMode">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jg-o2_dkEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_jg-o3PdkEeab-5GKKQU0-A" name="IN"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_jg-o3fdkEeab-5GKKQU0-A" name="OUT" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_jg-o3vdkEeab-5GKKQU0-A" name="AN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_jg-o3_dkEeab-5GKKQU0-A" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jg-o4PdkEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_jg-o4fdkEeab-5GKKQU0-A" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_jg-o4_dkEeab-5GKKQU0-A" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_suSXwPdiEeab-5GKKQU0-A" name="Profile" nsURI="http:///schemas/Profile/_spA2MPdiEeab-5GKKQU0-A/4" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_suSXwfdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_suS-0fdiEeab-5GKKQU0-A" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_suS-0vdiEeab-5GKKQU0-A" key="Version" value="0.0.5"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_suS-0_diEeab-5GKKQU0-A" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_suS-1PdiEeab-5GKKQU0-A" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_suS-1fdiEeab-5GKKQU0-A" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_suS-1vdiEeab-5GKKQU0-A" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_suSXwvdiEeab-5GKKQU0-A" name="GPIOPort">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_suSXw_diEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_suSXxPdiEeab-5GKKQU0-A" name="Pin" ordered="false" lowerBound="1" eType="_suSXzfdiEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_suSXxvdiEeab-5GKKQU0-A" name="Speed" ordered="false" lowerBound="1" eType="_suSXz_diEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_suSXyPdiEeab-5GKKQU0-A" name="PuPd" ordered="false" lowerBound="1" eType="_suSX1fdiEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_suSXyvdiEeab-5GKKQU0-A" name="Mode" ordered="false" lowerBound="1" eType="_suSX2vdiEeab-5GKKQU0-A"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_suSXzfdiEeab-5GKKQU0-A" name="uint32" instanceClassName="java.lang.String">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_suSXzvdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_suSXz_diEeab-5GKKQU0-A" name="GPIO_Speed">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_suSX0PdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_suSX0fdiEeab-5GKKQU0-A" name="Mhz_2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_suSX0vdiEeab-5GKKQU0-A" name="Mhz_25" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_suSX0_diEeab-5GKKQU0-A" name="Mhz_50" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_suSX1PdiEeab-5GKKQU0-A" name="Mhz_100" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_suSX1fdiEeab-5GKKQU0-A" name="GPIO_PuPd">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_suSX1vdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_suSX1_diEeab-5GKKQU0-A" name="NOPULL"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_suSX2PdiEeab-5GKKQU0-A" name="UP" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_suSX2fdiEeab-5GKKQU0-A" name="DOWN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_suSX2vdiEeab-5GKKQU0-A" name="GPIO_IOMode">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_suSX2_diEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_suSX3PdiEeab-5GKKQU0-A" name="IN"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_suSX3fdiEeab-5GKKQU0-A" name="OUT" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_suSX3vdiEeab-5GKKQU0-A" name="AN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_suSX3_diEeab-5GKKQU0-A" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_suSX4PdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_suSX4fdiEeab-5GKKQU0-A" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_suSX4_diEeab-5GKKQU0-A" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_IZphAPdiEeab-5GKKQU0-A" name="Profile" nsURI="http:///schemas/Profile/_IUwZ8PdiEeab-5GKKQU0-A/3" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IZphAfdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IZqIEfdiEeab-5GKKQU0-A" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IZqIEvdiEeab-5GKKQU0-A" key="Version" value="0.0.4"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IZqIE_diEeab-5GKKQU0-A" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IZqIFPdiEeab-5GKKQU0-A" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IZqIFfdiEeab-5GKKQU0-A" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IZqIFvdiEeab-5GKKQU0-A" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_IZphAvdiEeab-5GKKQU0-A" name="GPIOPort">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IZphA_diEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_IZphBPdiEeab-5GKKQU0-A" name="Pin" ordered="false" lowerBound="1" eType="_IZphC_diEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_IZphBvdiEeab-5GKKQU0-A" name="Speed" ordered="false" lowerBound="1" eType="_IZphDfdiEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_IZphCPdiEeab-5GKKQU0-A" name="PuPd" ordered="false" lowerBound="1" eType="_IZphE_diEeab-5GKKQU0-A"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_IZphC_diEeab-5GKKQU0-A" name="uint32" instanceClassName="java.lang.String">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IZphDPdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_IZphDfdiEeab-5GKKQU0-A" name="GPIO_Speed">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IZphDvdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_IZphD_diEeab-5GKKQU0-A" name="Mhz_2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_IZphEPdiEeab-5GKKQU0-A" name="Mhz_25" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_IZphEfdiEeab-5GKKQU0-A" name="Mhz_50" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_IZphEvdiEeab-5GKKQU0-A" name="Mhz_100" value="3"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_IZphE_diEeab-5GKKQU0-A" name="GPIO_PuPd">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IZphFPdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_IZphFfdiEeab-5GKKQU0-A" name="NOPULL"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_IZphFvdiEeab-5GKKQU0-A" name="UP" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_IZphF_diEeab-5GKKQU0-A" name="DOWN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_IZphGPdiEeab-5GKKQU0-A" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IZphGfdiEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_IZphGvdiEeab-5GKKQU0-A" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_IZphHPdiEeab-5GKKQU0-A" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_yqvkkPdhEeab-5GKKQU0-A" name="Profile" nsURI="http:///schemas/Profile/_ylobEPdhEeab-5GKKQU0-A/2" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yqvkkfdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yqvkrvdhEeab-5GKKQU0-A" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yqvkr_dhEeab-5GKKQU0-A" key="Version" value="0.0.3"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yqvksPdhEeab-5GKKQU0-A" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yqvksfdhEeab-5GKKQU0-A" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yqvksvdhEeab-5GKKQU0-A" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yqvks_dhEeab-5GKKQU0-A" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_yqvkkvdhEeab-5GKKQU0-A" name="GPIOPort">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yqvkk_dhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_yqvklPdhEeab-5GKKQU0-A" name="Pin" ordered="false" lowerBound="1" eType="_yqvkm_dhEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_yqvklvdhEeab-5GKKQU0-A" name="Speed" ordered="false" lowerBound="1" eType="_yqvknfdhEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_yqvkmPdhEeab-5GKKQU0-A" name="PuPd" ordered="false" lowerBound="1" eType="_yqvkoPdhEeab-5GKKQU0-A"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_yqvkm_dhEeab-5GKKQU0-A" name="uint32" instanceClassName="java.lang.String">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yqvknPdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_yqvknfdhEeab-5GKKQU0-A" name="GPIO_Speed">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yqvknvdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_yqvkn_dhEeab-5GKKQU0-A" name="Mhz_2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_yqvkoPdhEeab-5GKKQU0-A" name="GPIO_PuPd">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yqvkofdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_yqvkovdhEeab-5GKKQU0-A" name="NOPULL"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_yqvko_dhEeab-5GKKQU0-A" name="UP" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_yqvkpPdhEeab-5GKKQU0-A" name="DOWN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_yqvkpfdhEeab-5GKKQU0-A" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yqvkpvdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_yqvkp_dhEeab-5GKKQU0-A" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_yqvkqfdhEeab-5GKKQU0-A" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_uKK8YPdhEeab-5GKKQU0-A" name="Profile" nsURI="http:///schemas/Profile/_uFM80PdhEeab-5GKKQU0-A/1" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uKK8YfdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uKK8fvdhEeab-5GKKQU0-A" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uKK8f_dhEeab-5GKKQU0-A" key="Version" value="0.0.2"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uKK8gPdhEeab-5GKKQU0-A" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uKK8gfdhEeab-5GKKQU0-A" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uKK8gvdhEeab-5GKKQU0-A" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uKK8g_dhEeab-5GKKQU0-A" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_uKK8YvdhEeab-5GKKQU0-A" name="GPIOPort">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uKK8Y_dhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_uKK8ZPdhEeab-5GKKQU0-A" name="Pin" ordered="false" lowerBound="1" eType="_uKK8a_dhEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_uKK8ZvdhEeab-5GKKQU0-A" name="Speed" ordered="false" lowerBound="1" eType="_uKK8bfdhEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_uKK8aPdhEeab-5GKKQU0-A" name="PuPd" ordered="false" lowerBound="1" eType="_uKK8cPdhEeab-5GKKQU0-A"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_uKK8a_dhEeab-5GKKQU0-A" name="uint32" instanceClassName="java.lang.String">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uKK8bPdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_uKK8bfdhEeab-5GKKQU0-A" name="GPIO_Speed">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uKK8bvdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_uKK8b_dhEeab-5GKKQU0-A" name="Mhz"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_uKK8cPdhEeab-5GKKQU0-A" name="GPIO_PuPd">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uKK8cfdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_uKK8cvdhEeab-5GKKQU0-A" name="NOPULL"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_uKK8c_dhEeab-5GKKQU0-A" name="UP" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_uKK8dPdhEeab-5GKKQU0-A" name="DOWN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_uKK8dfdhEeab-5GKKQU0-A" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uKK8dvdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_uKK8d_dhEeab-5GKKQU0-A" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_uKK8efdhEeab-5GKKQU0-A" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+    <contents xmi:type="ecore:EPackage" xmi:id="_o22BkfdhEeab-5GKKQU0-A" name="Profile" nsURI="http:///schemas/Profile/_oxqmoPdhEeab-5GKKQU0-A/0" nsPrefix="Profile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o22BkvdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows"/>
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o22oofdhEeab-5GKKQU0-A" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_o22oovdhEeab-5GKKQU0-A" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_o22oo_dhEeab-5GKKQU0-A" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_o22opPdhEeab-5GKKQU0-A" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_o22opfdhEeab-5GKKQU0-A" key="Date" value="2017-02-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_o22opvdhEeab-5GKKQU0-A" key="Author" value=""/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_o22Bk_dhEeab-5GKKQU0-A" name="GPIOPort">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o22BlPdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_y2a7APdfEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//portandflows/FlowPort"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_o22BlfdhEeab-5GKKQU0-A" name="Pin" ordered="false" lowerBound="1" eType="_o22BnPdhEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_o22Bl_dhEeab-5GKKQU0-A" name="Speed" ordered="false" lowerBound="1" eType="_o22BnvdhEeab-5GKKQU0-A"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_o22BmfdhEeab-5GKKQU0-A" name="PuPd" ordered="false" lowerBound="1" eType="_o22BoPdhEeab-5GKKQU0-A"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EDataType" xmi:id="_o22BnPdhEeab-5GKKQU0-A" name="uint32" instanceClassName="java.lang.String">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o22BnfdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_o22BnvdhEeab-5GKKQU0-A" name="GPIO_Speed">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o22Bn_dhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_o22BoPdhEeab-5GKKQU0-A" name="GPIO_PuPd">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o22BofdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_o22BovdhEeab-5GKKQU0-A" name="NOPULL"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_o22Bo_dhEeab-5GKKQU0-A" name="UP" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_o22BpPdhEeab-5GKKQU0-A" name="DOWN" value="2"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_o22BpfdhEeab-5GKKQU0-A" name="Board">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_o22BpvdhEeab-5GKKQU0-A" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_7f9HMPdgEeab-5GKKQU0-A"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//blocks/Block"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_o22Bp_dhEeab-5GKKQU0-A" name="Vcc" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_o22BqfdhEeab-5GKKQU0-A" name="GND" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//Real"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_x2CcEPdfEeab-5GKKQU0-A">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_fSw28LX7EduFmqQsrNB9lw"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_hlIj8PdgEeab-5GKKQU0-A">
+    <importedPackage xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_7f9HMPdgEeab-5GKKQU0-A" name="Board">
+    <generalization xmi:type="uml:Generalization" xmi:id="_8o0zwPdgEeab-5GKKQU0-A">
+      <general xmi:type="uml:Stereotype" href="pathmap://SysML_PROFILES/SysML.profile.uml#_8J2A8LVAEdu2ieF4ON8UjA"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_-etXUPdgEeab-5GKKQU0-A" name="Vcc">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Bbq3sPdhEeab-5GKKQU0-A" name="GND">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_gfyRMPd7Eea4k9if6TYKeA" name="Types">
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_2AINMPd7Eea4k9if6TYKeA" name="GPIO_IOMode">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AINMfd7Eea4k9if6TYKeA" name="IN"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AINMvd7Eea4k9if6TYKeA" name="OUT"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AINM_d7Eea4k9if6TYKeA" name="AN"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_2AI0QPd7Eea4k9if6TYKeA" name="GPIO_PuPd">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AI0Qfd7Eea4k9if6TYKeA" name="NOPULL"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AI0Qvd7Eea4k9if6TYKeA" name="UP"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AI0Q_d7Eea4k9if6TYKeA" name="DOWN"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_2AJbUPd7Eea4k9if6TYKeA" name="GPIO_Pin">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbUfd7Eea4k9if6TYKeA" name="GPIO_Pin_0"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbUvd7Eea4k9if6TYKeA" name="GPIO_Pin_1"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbU_d7Eea4k9if6TYKeA" name="GPIO_Pin_2"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbVPd7Eea4k9if6TYKeA" name="GPIO_Pin_3"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbVfd7Eea4k9if6TYKeA" name="GPIO_Pin_4"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbVvd7Eea4k9if6TYKeA" name="GPIO_Pin_5"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbV_d7Eea4k9if6TYKeA" name="GPIO_Pin_6"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbWPd7Eea4k9if6TYKeA" name="GPIO_Pin_7"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbWfd7Eea4k9if6TYKeA" name="GPIO_Pin_8"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbWvd7Eea4k9if6TYKeA" name="GPIO_Pin_9"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbW_d7Eea4k9if6TYKeA" name="GPIO_Pin_10"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbXPd7Eea4k9if6TYKeA" name="GPIO_Pin_11"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbXfd7Eea4k9if6TYKeA" name="GPIO_Pin_12"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbXvd7Eea4k9if6TYKeA" name="GPIO_Pin_13"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbX_d7Eea4k9if6TYKeA" name="GPIO_Pin_14"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbYPd7Eea4k9if6TYKeA" name="GPIO_Pin_15"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_2AJbYfd7Eea4k9if6TYKeA" name="GPIO_Speed">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbYvd7Eea4k9if6TYKeA" name="Mhz_2"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbY_d7Eea4k9if6TYKeA" name="Mhz_25"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbZPd7Eea4k9if6TYKeA" name="Mhz_50"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AJbZfd7Eea4k9if6TYKeA" name="Mhz_100"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_2AKCYPd7Eea4k9if6TYKeA" name="GPIOx">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AKCYfd7Eea4k9if6TYKeA" name="GPIOA"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AKCYvd7Eea4k9if6TYKeA" name="GPIOB"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AKCY_d7Eea4k9if6TYKeA" name="GPIOC"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AKCZPd7Eea4k9if6TYKeA" name="GPIOD"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_2AKCZfd7Eea4k9if6TYKeA" name="GPIOE"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_2AKCZvd7Eea4k9if6TYKeA" name="GPIO_Addr">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2AKCZ_d7Eea4k9if6TYKeA" name="Periph" type="_2AKCYPd7Eea4k9if6TYKeA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_2AKCaPd7Eea4k9if6TYKeA" name="Pin" type="_2AJbUPd7Eea4k9if6TYKeA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_2AKCafd7Eea4k9if6TYKeA" name="Bits"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_hZFQsPd7Eea4k9if6TYKeA" name="Ports">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_x1_YwPdfEeab-5GKKQU0-A">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_rpx28LX7EduFmqQsrNB9lw"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_iuI_IPd7Eea4k9if6TYKeA" client="_hZFQsPd7Eea4k9if6TYKeA" supplier="_vfbxEPdfEeab-5GKKQU0-A"/>
+    <packagedElement xmi:type="uml:Stereotype" xmi:id="_y2a7APdfEeab-5GKKQU0-A" name="GPIOPort">
+      <generalization xmi:type="uml:Generalization" xmi:id="_3CVh0PdfEeab-5GKKQU0-A">
+        <general xmi:type="uml:Stereotype" href="pathmap://SysML_PROFILES/SysML.profile.uml#_lNvKMLVDEdu2ieF4ON8UjA"/>
+      </generalization>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_i3MowPdgEeab-5GKKQU0-A" name="Pin" type="_2AKCZvd7Eea4k9if6TYKeA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_owKAMPdgEeab-5GKKQU0-A" name="Speed" type="_2AJbYfd7Eea4k9if6TYKeA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_xvy0sPdgEeab-5GKKQU0-A" name="PuPd" type="_2AI0QPd7Eea4k9if6TYKeA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ptbO0PdiEeab-5GKKQU0-A" name="Mode" type="_2AINMPd7Eea4k9if6TYKeA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_2ZqwkPdlEeab-5GKKQU0-A" name="SetBit"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_RWXnkPdmEeab-5GKKQU0-A" name="ResetBit"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="__4OMUPd-Eea4k9if6TYKeA" name="Tpoint">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CIjQMPd_Eea4k9if6TYKeA" name="x">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_C3BfwPd_Eea4k9if6TYKeA" name="y">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+</uml:Profile>

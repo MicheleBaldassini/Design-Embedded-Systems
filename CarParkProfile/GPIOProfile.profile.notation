@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_vfjs4PdfEeab-5GKKQU0-A" type="PapyrusUMLProfileDiagram" name="Profile Diagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_ydPmAPdfEeab-5GKKQU0-A" type="1026">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ydQNEPdfEeab-5GKKQU0-A" type="1034"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ydQNEfdfEeab-5GKKQU0-A" type="1071">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ydQNEvdfEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_ydQNE_dfEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_ydQNFPdfEeab-5GKKQU0-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydQNFfdfEeab-5GKKQU0-A"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_ydQNFvdfEeab-5GKKQU0-A" type="1019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_ydQNF_dfEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_ydQNGPdfEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_ydQNGfdfEeab-5GKKQU0-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydQNGvdfEeab-5GKKQU0-A"/>
+      </children>
+      <element xmi:type="uml:Stereotype" href="pathmap://SysML_PROFILES/SysML.profile.uml#_lNvKMLVDEdu2ieF4ON8UjA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydPmAfdfEeab-5GKKQU0-A" x="296" y="77" width="104"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_y2biEPdfEeab-5GKKQU0-A" type="1026">
+      <children xmi:type="notation:DecorationNode" xmi:id="_y2cJIPdfEeab-5GKKQU0-A" type="1034"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_y2cJIfdfEeab-5GKKQU0-A" type="1071">
+        <children xmi:type="notation:Shape" xmi:id="_i3bSQPdgEeab-5GKKQU0-A" type="3002">
+          <element xmi:type="uml:Property" href="GPIOProfile.profile.uml#_i3MowPdgEeab-5GKKQU0-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_i3bSQfdgEeab-5GKKQU0-A"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_owVmYPdgEeab-5GKKQU0-A" type="3002">
+          <element xmi:type="uml:Property" href="GPIOProfile.profile.uml#_owKAMPdgEeab-5GKKQU0-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_owVmYfdgEeab-5GKKQU0-A"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_xwA3IPdgEeab-5GKKQU0-A" type="3002">
+          <element xmi:type="uml:Property" href="GPIOProfile.profile.uml#_xvy0sPdgEeab-5GKKQU0-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_xwA3IfdgEeab-5GKKQU0-A"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_ptoDIPdiEeab-5GKKQU0-A" type="3002">
+          <element xmi:type="uml:Property" href="GPIOProfile.profile.uml#_ptbO0PdiEeab-5GKKQU0-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ptoDIfdiEeab-5GKKQU0-A"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_y2cJIvdfEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_y2cJI_dfEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_y2cJJPdfEeab-5GKKQU0-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y2cJJfdfEeab-5GKKQU0-A"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_y2cJJvdfEeab-5GKKQU0-A" type="1019">
+        <children xmi:type="notation:Shape" xmi:id="_2Z1IoPdlEeab-5GKKQU0-A" type="3020">
+          <element xmi:type="uml:Operation" href="GPIOProfile.profile.uml#_2ZqwkPdlEeab-5GKKQU0-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2Z1IofdlEeab-5GKKQU0-A"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RWsXsPdmEeab-5GKKQU0-A" type="3020">
+          <element xmi:type="uml:Operation" href="GPIOProfile.profile.uml#_RWXnkPdmEeab-5GKKQU0-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RWsXsfdmEeab-5GKKQU0-A"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_y2cJJ_dfEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_y2cJKPdfEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_y2cJKfdfEeab-5GKKQU0-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y2cJKvdfEeab-5GKKQU0-A"/>
+      </children>
+      <element xmi:type="uml:Stereotype" href="GPIOProfile.profile.uml#_y2a7APdfEeab-5GKKQU0-A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y2biEfdfEeab-5GKKQU0-A" x="213" y="356" width="253" height="283"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_59LF0PdgEeab-5GKKQU0-A" type="1026">
+      <children xmi:type="notation:DecorationNode" xmi:id="_59LF0vdgEeab-5GKKQU0-A" type="1034"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_59Ls4PdgEeab-5GKKQU0-A" type="1071">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_59Ls4fdgEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_59Ls4vdgEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_59Ls4_dgEeab-5GKKQU0-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_59Ls5PdgEeab-5GKKQU0-A"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_59Ls5fdgEeab-5GKKQU0-A" type="1019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_59Ls5vdgEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_59Ls5_dgEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_59Ls6PdgEeab-5GKKQU0-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_59Ls6fdgEeab-5GKKQU0-A"/>
+      </children>
+      <element xmi:type="uml:Stereotype" href="pathmap://SysML_PROFILES/SysML.profile.uml#_8J2A8LVAEdu2ieF4ON8UjA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_59LF0fdgEeab-5GKKQU0-A" x="577" y="74"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_7gAKgPdgEeab-5GKKQU0-A" type="1026">
+      <children xmi:type="notation:DecorationNode" xmi:id="_7gAxkPdgEeab-5GKKQU0-A" type="1034"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_7gAxkfdgEeab-5GKKQU0-A" type="1071">
+        <children xmi:type="notation:Shape" xmi:id="_-fASQPdgEeab-5GKKQU0-A" type="3002">
+          <element xmi:type="uml:Property" href="GPIOProfile.profile.uml#_-etXUPdgEeab-5GKKQU0-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_-fASQfdgEeab-5GKKQU0-A"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_Bb8kgPdhEeab-5GKKQU0-A" type="3002">
+          <element xmi:type="uml:Property" href="GPIOProfile.profile.uml#_Bbq3sPdhEeab-5GKKQU0-A"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Bb8kgfdhEeab-5GKKQU0-A"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_7gAxkvdgEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_7gAxk_dgEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_7gAxlPdgEeab-5GKKQU0-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7gAxlfdgEeab-5GKKQU0-A"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_7gAxlvdgEeab-5GKKQU0-A" type="1019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_7gAxl_dgEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_7gAxmPdgEeab-5GKKQU0-A"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_7gAxmfdgEeab-5GKKQU0-A"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7gAxmvdgEeab-5GKKQU0-A"/>
+      </children>
+      <element xmi:type="uml:Stereotype" href="GPIOProfile.profile.uml#_7f9HMPdgEeab-5GKKQU0-A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7gAKgfdgEeab-5GKKQU0-A" x="545" y="351"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_RVFzMPd8Eea4k9if6TYKeA" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_RVFzMvd8Eea4k9if6TYKeA" type="5023"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_RVFzM_d8Eea4k9if6TYKeA" type="1063">
+        <children xmi:type="notation:Shape" xmi:id="_wsdesPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AINMfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wsdesfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wsmBkPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AINMvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wsmBkfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wsrhIPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AINM_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wsrhIfd8Eea4k9if6TYKeA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_RVFzNPd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_RVFzNfd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_RVFzNvd8Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RVFzN_d8Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="GPIOProfile.profile.uml#_2AINMPd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RVFzMfd8Eea4k9if6TYKeA" x="1001" y="12" width="266" height="176"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_yjAJkPd8Eea4k9if6TYKeA" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_yjAJkvd8Eea4k9if6TYKeA" type="5023"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_yjAwoPd8Eea4k9if6TYKeA" type="1063">
+        <children xmi:type="notation:Shape" xmi:id="_2fLEMPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AI0Qfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2fLEMfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2fRK0Pd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AI0Qvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2fRK0fd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2fWqYPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AI0Q_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2fWqYfd8Eea4k9if6TYKeA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_yjAwofd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_yjAwovd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_yjAwo_d8Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yjAwpPd8Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="GPIOProfile.profile.uml#_2AI0QPd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yjAJkfd8Eea4k9if6TYKeA" x="997" y="196" width="269" height="174"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_3TkVkPd8Eea4k9if6TYKeA" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3TkVkvd8Eea4k9if6TYKeA" type="5023"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_3TkVk_d8Eea4k9if6TYKeA" type="1063">
+        <children xmi:type="notation:Shape" xmi:id="_7CA9QPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbUfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7CA9Qfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7CHq8Pd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbUvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7CHq8fd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7CNxkPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbU_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7CNxkfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7CT4MPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbVPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7CT4Mfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7CZXwPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbVfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7CZXwfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7Ce3UPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbVvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7Ce3Ufd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7Ck98Pd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbV_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7Ck98fd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7Cp2cPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbWPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7Cp2cfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7CvWAPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbWfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7CvWAfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7C0OgPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbWvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7C0Ogfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7C5uEPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbW_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7C5uEfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7C_NoPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbXPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7C_Nofd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7DEtMPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbXfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7DEtMfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7DKMwPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbXvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7DKMwfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7DQTYPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbX_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7DQTYfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7DWaAPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbYPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7DWaAfd8Eea4k9if6TYKeA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_3TkVlPd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_3TkVlfd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_3TkVlvd8Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3TkVl_d8Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="GPIOProfile.profile.uml#_2AJbUPd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3TkVkfd8Eea4k9if6TYKeA" x="1397" y="23" width="209" height="606"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_7yNEEPd8Eea4k9if6TYKeA" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_7yNEEvd8Eea4k9if6TYKeA" type="5023"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_7yNEE_d8Eea4k9if6TYKeA" type="1063">
+        <children xmi:type="notation:Shape" xmi:id="_8ZlNIPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbYvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8ZlNIfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_8ZtI8Pd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbY_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8ZtI8fd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_8Z1EwPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbZPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8Z1Ewfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_8Z7LYPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbZfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_8Z7LYfd8Eea4k9if6TYKeA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_7yNEFPd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_7yNEFfd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_7yNEFvd8Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7yNEF_d8Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="GPIOProfile.profile.uml#_2AJbYfd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7yNEEfd8Eea4k9if6TYKeA" x="996" y="378" width="272" height="215"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_9ZMQAPd8Eea4k9if6TYKeA" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9ZM3EPd8Eea4k9if6TYKeA" type="5023"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9ZM3Efd8Eea4k9if6TYKeA" type="1063">
+        <children xmi:type="notation:Shape" xmi:id="_-DjboPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AKCYfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_-Djbofd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-Dr-gPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AKCYvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_-Dr-gfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-DysMPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AKCY_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_-DysMfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-D6A8Pd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AKCZPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_-D6A8fd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-EBVsPd8Eea4k9if6TYKeA" type="1037">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AKCZfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_-EBVsfd8Eea4k9if6TYKeA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9ZM3Evd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9ZM3E_d8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9ZM3FPd8Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9ZM3Ffd8Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="GPIOProfile.profile.uml#_2AKCYPd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9ZMQAfd8Eea4k9if6TYKeA" x="1008" y="606"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-zPMIPd8Eea4k9if6TYKeA" type="2010">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-zPMIvd8Eea4k9if6TYKeA" type="5035"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-zPMI_d8Eea4k9if6TYKeA" type="1067">
+        <children xmi:type="notation:Shape" xmi:id="__T0JoPd8Eea4k9if6TYKeA" type="3018">
+          <element xmi:type="uml:Property" href="GPIOProfile.profile.uml#_2AKCZ_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__T0Jofd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__T96oPd8Eea4k9if6TYKeA" type="3018">
+          <element xmi:type="uml:Property" href="GPIOProfile.profile.uml#_2AKCaPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__T96ofd8Eea4k9if6TYKeA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-zPMJPd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-zPMJfd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-zPMJvd8Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-zPMJ_d8Eea4k9if6TYKeA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-zPMKPd8Eea4k9if6TYKeA" type="1068">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-zPMKfd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-zPMKvd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-zPMK_d8Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-zPMLPd8Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:DataType" href="GPIOProfile.profile.uml#_2AKCZvd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-zPMIfd8Eea4k9if6TYKeA" x="1689" y="39" width="266" height="171"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="__vupkPd8Eea4k9if6TYKeA" type="2009">
+      <children xmi:type="notation:DecorationNode" xmi:id="__vupkvd8Eea4k9if6TYKeA" type="5032"/>
+      <element xmi:type="uml:PrimitiveType" href="GPIOProfile.profile.uml#_2AKCafd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__vupkfd8Eea4k9if6TYKeA" x="1687" y="225" width="268" height="131"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="__4OzYPd-Eea4k9if6TYKeA" type="2010">
+      <children xmi:type="notation:DecorationNode" xmi:id="__4OzYvd-Eea4k9if6TYKeA" type="5035"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="__4OzY_d-Eea4k9if6TYKeA" type="1067">
+        <children xmi:type="notation:Shape" xmi:id="_CIwEgPd_Eea4k9if6TYKeA" type="3018">
+          <element xmi:type="uml:Property" href="GPIOProfile.profile.uml#_CIjQMPd_Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_CIwEgfd_Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_C3LQwPd_Eea4k9if6TYKeA" type="3018">
+          <element xmi:type="uml:Property" href="GPIOProfile.profile.uml#_C3BfwPd_Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_C3LQwfd_Eea4k9if6TYKeA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="__4OzZPd-Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="__4OzZfd-Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="__4OzZvd-Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4OzZ_d-Eea4k9if6TYKeA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="__4OzaPd-Eea4k9if6TYKeA" type="1068">
+        <styles xmi:type="notation:TitleStyle" xmi:id="__4Ozafd-Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="__4Ozavd-Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="__4Oza_d-Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4OzbPd-Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:DataType" href="GPIOProfile.profile.uml#__4OMUPd-Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__4OzYfd-Eea4k9if6TYKeA" x="1724" y="484" width="233" height="312"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_vfjs4fdfEeab-5GKKQU0-A" name="diagram_compatibility_version" stringValue="1.1.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_vfjs4vdfEeab-5GKKQU0-A"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_vfjs4_dfEeab-5GKKQU0-A">
+      <owner xmi:type="uml:Profile" href="GPIOProfile.profile.uml#_vfbxEPdfEeab-5GKKQU0-A"/>
+    </styles>
+    <element xmi:type="uml:Profile" href="GPIOProfile.profile.uml#_vfbxEPdfEeab-5GKKQU0-A"/>
+    <edges xmi:type="notation:Connector" xmi:id="_3DHk8PdfEeab-5GKKQU0-A" type="4002" source="_y2biEPdfEeab-5GKKQU0-A" target="_ydPmAPdfEeab-5GKKQU0-A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3DIzEPdfEeab-5GKKQU0-A" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3DIzEfdfEeab-5GKKQU0-A" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_3DHk8fdfEeab-5GKKQU0-A"/>
+      <element xmi:type="uml:Generalization" href="GPIOProfile.profile.uml#_3CVh0PdfEeab-5GKKQU0-A"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3DHk8vdfEeab-5GKKQU0-A" points="[1, -11, -17, 144]$[16, -137, -2, 18]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3G6f0PdfEeab-5GKKQU0-A" id="(0.5098814229249012,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3G6f0fdfEeab-5GKKQU0-A" id="(0.4423076923076923,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_8pAZ8PdgEeab-5GKKQU0-A" type="4002" source="_7gAKgPdgEeab-5GKKQU0-A" target="_59LF0PdgEeab-5GKKQU0-A">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8pBBAPdgEeab-5GKKQU0-A" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8pBBAfdgEeab-5GKKQU0-A" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_8pAZ8fdgEeab-5GKKQU0-A"/>
+      <element xmi:type="uml:Generalization" href="GPIOProfile.profile.uml#_8o0zwPdgEeab-5GKKQU0-A"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8pAZ8vdgEeab-5GKKQU0-A" points="[-2, -21, 16, 170]$[-14, -141, 4, 50]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8pVxIPdgEeab-5GKKQU0-A" id="(0.5522388059701493,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8pVxIfdgEeab-5GKKQU0-A" id="(0.5642857142857143,1.0)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_f8Cq8Pd7Eea4k9if6TYKeA" type="PapyrusUMLClassDiagram" name="Packages" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_gf0GYPd7Eea4k9if6TYKeA" type="2007">
+      <children xmi:type="notation:DecorationNode" xmi:id="_gf0GYvd7Eea4k9if6TYKeA" type="5026"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_gf0GY_d7Eea4k9if6TYKeA" type="7016">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_gf0GZPd7Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gf0GZfd7Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:Package" href="GPIOProfile.profile.uml#_gfyRMPd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gf0GYfd7Eea4k9if6TYKeA" x="791" y="167"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_hZF3wPd7Eea4k9if6TYKeA" type="2007">
+      <children xmi:type="notation:DecorationNode" xmi:id="_hZF3wvd7Eea4k9if6TYKeA" type="5026"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_hZF3w_d7Eea4k9if6TYKeA" type="7016">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_hZF3xPd7Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hZF3xfd7Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:Package" href="GPIOProfile.profile.uml#_hZFQsPd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hZF3wfd7Eea4k9if6TYKeA" x="820" y="429"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_f8Cq8fd7Eea4k9if6TYKeA" name="diagram_compatibility_version" stringValue="1.1.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_f8Cq8vd7Eea4k9if6TYKeA"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_f8Cq8_d7Eea4k9if6TYKeA">
+      <owner xmi:type="uml:Profile" href="GPIOProfile.profile.uml#_vfbxEPdfEeab-5GKKQU0-A"/>
+      <configuration xmi:type="configuration:PapyrusDiagram" href="platform:/plugin/org.eclipse.papyrus.infra.viewpoints.policy/builtin/default.configuration#_7wLmpNxhEeOqHvRyiN87hA"/>
+    </styles>
+    <element xmi:type="uml:Profile" href="GPIOProfile.profile.uml#_vfbxEPdfEeab-5GKKQU0-A"/>
+    <edges xmi:type="notation:Connector" xmi:id="_iuPs0Pd7Eea4k9if6TYKeA" type="4008" source="_hZF3wPd7Eea4k9if6TYKeA" target="_gf0GYPd7Eea4k9if6TYKeA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_iuPs0_d7Eea4k9if6TYKeA" type="6026">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iuQT4Pd7Eea4k9if6TYKeA" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_iuQT4fd7Eea4k9if6TYKeA" type="6027">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_iuQT4vd7Eea4k9if6TYKeA" x="2" y="39"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_iuPs0fd7Eea4k9if6TYKeA"/>
+      <element xmi:type="uml:Dependency" href="GPIOProfile.profile.uml#_iuI_IPd7Eea4k9if6TYKeA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iuPs0vd7Eea4k9if6TYKeA"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iungQPd7Eea4k9if6TYKeA" id="(0.155,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iungQfd7Eea4k9if6TYKeA" id="(0.32,1.0)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_4hf9wPd7Eea4k9if6TYKeA" type="PapyrusUMLClassDiagram" name="TypesDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_6ZMfMPd7Eea4k9if6TYKeA" type="2010">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6ZMfMvd7Eea4k9if6TYKeA" type="5035"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_6ZMfM_d7Eea4k9if6TYKeA" type="8502">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6ZMfNPd7Eea4k9if6TYKeA" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6ZMfNfd7Eea4k9if6TYKeA" type="7020">
+        <children xmi:type="notation:Shape" xmi:id="_7LQOQPd7Eea4k9if6TYKeA" type="3018">
+          <element xmi:type="uml:Property" href="GPIOProfile.profile.uml#_2AKCZ_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7LQOQfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_7f8E0Pd7Eea4k9if6TYKeA" type="3018">
+          <element xmi:type="uml:Property" href="GPIOProfile.profile.uml#_2AKCaPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7f8E0fd7Eea4k9if6TYKeA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_6ZMfNvd7Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6ZMfN_d7Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6ZMfOPd7Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ZMfOfd7Eea4k9if6TYKeA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6ZMfOvd7Eea4k9if6TYKeA" type="7021">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_6ZMfO_d7Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6ZMfPPd7Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6ZMfPfd7Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ZMfPvd7Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:DataType" href="GPIOProfile.profile.uml#_2AKCZvd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6ZMfMfd7Eea4k9if6TYKeA" x="213" y="460" width="272" height="230"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_8tqcMPd7Eea4k9if6TYKeA" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8tqcMvd7Eea4k9if6TYKeA" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_8tqcM_d7Eea4k9if6TYKeA" type="8508">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_8tqcNPd7Eea4k9if6TYKeA" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_8tqcNfd7Eea4k9if6TYKeA" type="7015">
+        <children xmi:type="notation:Shape" xmi:id="_9ep0QPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AKCYfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9ep0Qfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_9ey-MPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AKCYvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9ey-Mfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_9e2BgPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AKCY_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9e2Bgfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_9e5E0Pd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AKCZPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9e5E0fd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_9e8IIPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AKCZfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9e8IIfd7Eea4k9if6TYKeA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_8tqcNvd7Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_8tqcN_d7Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_8tqcOPd7Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8tqcOfd7Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="GPIOProfile.profile.uml#_2AKCYPd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8tqcMfd7Eea4k9if6TYKeA" x="222" y="164"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_-DGlIPd7Eea4k9if6TYKeA" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_-DHMMPd7Eea4k9if6TYKeA" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_-DHMMfd7Eea4k9if6TYKeA" type="8508">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_-DHMMvd7Eea4k9if6TYKeA" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_-DHMM_d7Eea4k9if6TYKeA" type="7015">
+        <children xmi:type="notation:Shape" xmi:id="_-jtX0Pd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbYvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_-jtX0fd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-jxpQPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbY_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_-jxpQfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-j1ToPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbZPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_-j1Tofd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_-j5lEPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbZfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_-j5lEfd7Eea4k9if6TYKeA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_-DHMNPd7Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_-DHMNfd7Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_-DHMNvd7Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-DHMN_d7Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="GPIOProfile.profile.uml#_2AJbYfd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-DGlIfd7Eea4k9if6TYKeA" x="643" y="168"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="__FkHsPd7Eea4k9if6TYKeA" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="__FkHsvd7Eea4k9if6TYKeA" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="__FkuwPd7Eea4k9if6TYKeA" type="8508">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="__Fkuwfd7Eea4k9if6TYKeA" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="__Fkuwvd7Eea4k9if6TYKeA" type="7015">
+        <children xmi:type="notation:Shape" xmi:id="__8cFUPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbUfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__8cFUfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__8g90Pd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbUvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__8g90fd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__8l2UPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbU_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__8l2Ufd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__8pgsPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbVPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__8pgsfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__8tyIPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbVfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__8tyIfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__8yDkPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbVvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__8yDkfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__82VAPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbV_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__82VAfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__86mcPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbWPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__86mcfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__8-34Pd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbWfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__8-34fd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__9DwYPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbWvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__9DwYfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__9IB0Pd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbW_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__9IB0fd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__9MTQPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbXPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__9MTQfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__9QksPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbXfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__9Qksfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__9VdMPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbXvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__9VdMfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__9aVsPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbX_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__9aVsfd7Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__9fOMPd7Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AJbYPd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="__9fOMfd7Eea4k9if6TYKeA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="__Fkuw_d7Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="__FkuxPd7Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="__Fkuxfd7Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="__Fkuxvd7Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="GPIOProfile.profile.uml#_2AJbUPd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="__FkHsfd7Eea4k9if6TYKeA" x="23" y="176"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_BqWYoPd8Eea4k9if6TYKeA" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_BqW_sPd8Eea4k9if6TYKeA" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_BqW_sfd8Eea4k9if6TYKeA" type="8508">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_BqW_svd8Eea4k9if6TYKeA" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_BqW_s_d8Eea4k9if6TYKeA" type="7015">
+        <children xmi:type="notation:Shape" xmi:id="_CKkJwPd8Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AI0Qfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_CKkJwfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_CKqQYPd8Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AI0Qvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_CKqQYfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_CKwXAPd8Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AI0Q_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_CKwXAfd8Eea4k9if6TYKeA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_BqW_tPd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_BqW_tfd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_BqW_tvd8Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BqW_t_d8Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="GPIOProfile.profile.uml#_2AI0QPd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BqWYofd8Eea4k9if6TYKeA" x="893" y="513"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_C3COMPd8Eea4k9if6TYKeA" type="2006">
+      <children xmi:type="notation:DecorationNode" xmi:id="_C3COMvd8Eea4k9if6TYKeA" type="5023"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_C3COM_d8Eea4k9if6TYKeA" type="8508">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_C3CONPd8Eea4k9if6TYKeA" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_C3CONfd8Eea4k9if6TYKeA" type="7015">
+        <children xmi:type="notation:Shape" xmi:id="_Da-owPd8Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AINMfd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Da-owfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_DbF9gPd8Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AINMvd7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_DbF9gfd8Eea4k9if6TYKeA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_DbMrMPd8Eea4k9if6TYKeA" type="3017">
+          <element xmi:type="uml:EnumerationLiteral" href="GPIOProfile.profile.uml#_2AINM_d7Eea4k9if6TYKeA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_DbMrMfd8Eea4k9if6TYKeA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_C3CONvd8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_C3CON_d8Eea4k9if6TYKeA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_C3COOPd8Eea4k9if6TYKeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C3COOfd8Eea4k9if6TYKeA"/>
+      </children>
+      <element xmi:type="uml:Enumeration" href="GPIOProfile.profile.uml#_2AINMPd7Eea4k9if6TYKeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_C3COMfd8Eea4k9if6TYKeA" x="624" y="499"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_4hf9wfd7Eea4k9if6TYKeA" name="diagram_compatibility_version" stringValue="1.1.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_4hf9wvd7Eea4k9if6TYKeA"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_4hf9w_d7Eea4k9if6TYKeA">
+      <owner xmi:type="uml:Package" href="GPIOProfile.profile.uml#_gfyRMPd7Eea4k9if6TYKeA"/>
+    </styles>
+    <element xmi:type="uml:Package" href="GPIOProfile.profile.uml#_gfyRMPd7Eea4k9if6TYKeA"/>
+  </notation:Diagram>
+</xmi:XMI>

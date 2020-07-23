@@ -1,0 +1,103 @@
+CPU mySystem {
+	OS myOs {
+		EE_OPT = "DEBUG";
+		//		EE_OPT = "VERBOSE";
+		//LDFLAGS =" --specs=rdimon.specs -lrdimon";
+		CPU_DATA = CORTEX_MX {
+			MODEL = M4;
+			APP_SRC = "code.c";
+			APP_SRC = "./lcd-touch/Touch.c";
+			APP_SRC = "./lcd-touch/STMPE811QTR.c";
+			APP_SRC = "stm32f4_hysr05.c";
+			APP_SRC = "pictures.c";
+			APP_SRC = "Widget.c";
+			APP_SRC = "CarParkConfig.c";
+			APP_SRC = "FSM_Park.c";
+			COMPILER_TYPE = GNU;
+			MULTI_STACK = FALSE;
+		};
+		EE_OPT = "__USE_SYSTICK__";
+		MCU_DATA = STM32 {
+			MODEL = STM32F4xx;
+		};
+		EE_OPT = "__ADD_LIBS__";
+		LIB = ENABLE {
+			NAME = "ST_CMSIS";
+		};
+		LIB = ENABLE {
+			NAME = "STM32F4XX_SPD";
+			STM32F4XX_SPD = ENABLE {
+				USEGPIO = TRUE;
+				USESPI = TRUE;
+				USEEXTI = TRUE;
+				USEMISC = TRUE;
+				//				USEFLASH = TRUE;
+				USEI2C = TRUE;
+				USEDMA = TRUE;
+				USEUSART = TRUE;
+				USESYSCFG = TRUE;
+			};
+		};
+		LIB = ENABLE {
+			NAME = "STM32F4_DISCOVERY";
+			STM32F4_DISCOVERY = ENABLE {
+				USELCD = TRUE;
+			};
+		};
+		STATUS = EXTENDED;
+		STARTUPHOOK = FALSE;
+		ERRORHOOK = FALSE;
+		SHUTDOWNHOOK = FALSE;
+		PRETASKHOOK = FALSE;
+		POSTTASKHOOK = FALSE;
+		USEGETSERVICEID = FALSE;
+		USEPARAMETERACCESS = FALSE;
+		USERESSCHEDULER = FALSE;
+		KERNEL_TYPE = FP;
+	};
+	COUNTER myCounter;
+	ALARM AlarmTouch{
+		COUNTER = myCounter;
+		ACTION = ACTIVATETASK {
+			TASK = TouchTask;
+		};
+	};
+	ALARM AlarmSensors {
+		COUNTER = myCounter;
+		ACTION = ACTIVATETASK {
+			TASK = SensorsTask;
+		};
+	};
+	ALARM AlarmApp {
+		COUNTER = myCounter;
+		ACTION = ACTIVATETASK {
+			TASK = AppTask;
+		};
+	};
+	TASK TouchTask {
+		PRIORITY = 0x03;
+		AUTOSTART = FALSE;
+		STACK = SHARED;
+		ACTIVATION = 1;
+		SCHEDULE = FULL;
+	};
+	TASK SensorsTask {
+		PRIORITY = 0x02;
+		AUTOSTART = FALSE;
+		STACK = SHARED;
+		ACTIVATION = 1;
+		SCHEDULE = FULL;
+	};
+	TASK AppTask {
+		PRIORITY = 0x01;
+		AUTOSTART = FALSE;
+		STACK = SHARED;
+		ACTIVATION = 1;
+		SCHEDULE = FULL;
+	};
+	ISR systick_handler {
+		CATEGORY = 2;
+		ENTRY = "SYSTICK";
+		PRIORITY = 1;
+	};
+};
